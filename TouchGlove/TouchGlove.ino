@@ -15,11 +15,12 @@
 Radio radio(11);
 
 struct Packet {
-  int snsrVal1 = 0;
+  int snsrVal1 = 0; 
   int snsrVal2 = 0;
   int snsrVal3 = 0;
   int snsrVal4 = 0;
   int snsrVal5 = 0;
+  int checkSum = 0;
 } pkt;
 
 struct Packet2 {
@@ -38,15 +39,14 @@ void setup() {
   pinMode(vibePin4, OUTPUT);
   pinMode(vibePin5, OUTPUT);
   Serial.begin(9600);
-
 }
 
 void loop() {
-  pkt2.value1 = map(analogRead(FLEX_PIN1), 80, 320, 0, 25); //maps them to PWM scale
-  pkt2.value2 = map(analogRead(FLEX_PIN2), 120, 600, 0, 255); 
-  pkt2.value3 = map(analogRead(FLEX_PIN3), 120, 600, 0, 255);
-  pkt2.value4 = map(analogRead(FLEX_PIN4), 120, 600, 0, 255); 
-  pkt2.value5 = map(analogRead(FLEX_PIN5), 120, 600, 0, 255);
+  pkt2.value1 = map(analogRead(FLEX_PIN1), 0, 320, 0, 255); //maps them to PWM scale
+  pkt2.value2 = map(analogRead(FLEX_PIN2), 100, 600, 0, 255); 
+  pkt2.value3 = map(analogRead(FLEX_PIN3), 100, 600, 0, 255);
+  pkt2.value4 = map(analogRead(FLEX_PIN4), 100, 600, 0, 255); 
+  pkt2.value5 = map(analogRead(FLEX_PIN5), 100, 600, 0, 255);
   
   delay(100);
 
@@ -54,12 +54,12 @@ void loop() {
 
   if(radio.rfAvailable()) {
     radio.rfRead((uint8_t *) & pkt, sizeof(Packet));
+    radio.rfFlush();
   }
-
+  
   analogWrite(vibePin1, pkt.snsrVal1);
   analogWrite(vibePin2, pkt.snsrVal2);
   analogWrite(vibePin3, pkt.snsrVal3);
   analogWrite(vibePin4, pkt.snsrVal4);
   analogWrite(vibePin5, pkt.snsrVal5);
-  
 }

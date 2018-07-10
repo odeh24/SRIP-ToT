@@ -46,6 +46,6 @@ void loop() {
   servo4.write(pkt.value4);
   servo5.write(pkt.value5);
   
-  delay(500);
+  delay(150);
 }
 

@@ -38,7 +38,6 @@ void setup() {
   servo3.attach(5);
   servo4.attach(8);
   servo5.attach(9);
-
 }
 
 void loop() {
@@ -52,8 +51,9 @@ void loop() {
 
   if(radio.rfAvailable()) {
     radio.rfRead((uint8_t *) & pkt2, sizeof(Packet2));
+    radio.rfFlush();
   }
-
+  
   servo1.write(pkt2.value1); //turn to value given by flex sensor
   servo2.write(pkt2.value2);
   servo3.write(pkt2.value3);
@@ -61,5 +61,4 @@ void loop() {
   servo5.write(pkt2.value5);
 
   delay (100);
-
 }

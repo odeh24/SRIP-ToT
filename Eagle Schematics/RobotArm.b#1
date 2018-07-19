@@ -2348,6 +2348,14 @@ design rules under a new name.</description>
 <attribute name="MFR" value="Murata Electronics North America" x="-68.58" y="-50.8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM216R61E105KA12D" x="-68.58" y="-50.8" size="1.778" layer="27" display="off"/>
 </element>
+<element name="C26" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="1uF/25V" x="-72.39" y="-50.8">
+<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R61E105KA12-01.pdf" x="-72.39" y="-50.8" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="Digikey" x="-72.39" y="-50.8" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1700-1-ND" x="-72.39" y="-50.8" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="490-1700-1-ND" x="-72.39" y="-50.8" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Murata Electronics North America" x="-72.39" y="-50.8" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GRM216R61E105KA12D" x="-72.39" y="-50.8" size="1.778" layer="27" display="off"/>
+</element>
 <element name="C27" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-0.925" y="-152.4">
 <attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-0.925" y="-152.4" size="1.778" layer="27" display="off"/>
 <attribute name="DIST" value="Digikey" x="-0.925" y="-152.4" size="1.778" layer="27" display="off"/>
@@ -2455,17 +2463,16 @@ design rules under a new name.</description>
 <contactref element="L2" pad="1"/>
 <contactref element="D2" pad="A"/>
 <contactref element="C25" pad="1"/>
+<contactref element="C26" pad="1"/>
 <contactref element="C29" pad="1"/>
 <contactref element="C28" pad="1"/>
 <contactref element="C31" pad="1"/>
 <contactref element="C30" pad="1"/>
-<contactref element="C27" pad="1"/>
-<wire x1="-1.85" y1="-177.8" x2="-1.85" y2="-190.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-88.555" y1="-50.8" x2="-1.85" y2="-190.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.85" y1="-177.8" x2="-88.555" y2="-50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-1.85" y1="-165.1" x2="-1.85" y2="-177.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.85" y1="-152.4" x2="-1.85" y2="-165.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.85" y1="-101.6" x2="-1.85" y2="-152.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-69.505" y1="-50.8" x2="-1.85" y2="-101.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.555" y1="-50.8" x2="-69.505" y2="-50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-73.315" y1="-50.8" x2="-1.85" y2="-165.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.505" y1="-50.8" x2="-73.315" y2="-50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.8" y1="23.059" x2="-69.505" y2="-50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.169" y1="24.69" x2="-19.8" y2="23.059" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.169" y1="29.69" x2="-14.169" y2="24.69" width="0" layer="19" extent="1-1"/>
@@ -2478,14 +2485,15 @@ design rules under a new name.</description>
 <wire x1="-39.37" y1="36.83" x2="-33.02" y2="36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="-45.72" y1="36.83" x2="-39.37" y2="36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.07" y1="36.83" x2="-45.72" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.85" y1="-101.6" x2="-52.07" y2="36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.975" y1="50.8" x2="-15.3066" y2="38.735" width="0" layer="19" extent="1-1"/>
 <wire x1="-23.785" y1="50.8" x2="-19.975" y2="50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-31.405" y1="50.8" x2="-23.785" y2="50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.8646" y1="59.69" x2="-19.975" y2="50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-25.6746" y1="59.69" x2="-21.8646" y2="59.69" width="0" layer="19" extent="1-1"/>
 <wire x1="-29.4846" y1="59.69" x2="-25.6746" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="-50.53" y1="64.77" x2="-29.4846" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="-53.1206" y1="63.5" x2="-50.53" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.1206" y1="63.5" x2="-1.85" y2="-101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.53" y1="64.77" x2="-53.1206" y2="63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-62.4494" y1="63.5" x2="-53.1206" y2="63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="20.32" y1="26.62" x2="-14.169" y2="24.69" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -2535,17 +2543,16 @@ design rules under a new name.</description>
 <contactref element="C15" pad="2"/>
 <contactref element="C23" pad="-"/>
 <contactref element="C24" pad="-"/>
+<contactref element="C26" pad="2"/>
 <contactref element="C25" pad="2"/>
 <contactref element="C29" pad="2"/>
 <contactref element="C30" pad="2"/>
 <contactref element="C31" pad="2"/>
-<contactref element="C27" pad="2"/>
-<wire x1="0" y1="-177.8" x2="0" y2="-190.5" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-152.4" x2="0" y2="-177.8" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-101.6" x2="0" y2="-152.4" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-88.9" x2="0" y2="-101.6" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-76.2" x2="0" y2="-88.9" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-48.26" x2="0" y2="-76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-86.705" y1="-50.8" x2="0" y2="-190.5" width="0" layer="19" extent="1-1"/>
+<wire x1="0" y1="-177.8" x2="-86.705" y2="-50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-71.465" y1="-50.8" x2="0" y2="-177.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.655" y1="-50.8" x2="-71.465" y2="-50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="0" y1="-48.26" x2="-67.655" y2="-50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="0" y1="-35.56" x2="0" y2="-48.26" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.35" y1="16.51" x2="0" y2="-35.56" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.169" y1="24.19" x2="-14.35" y2="16.51" width="0" layer="19" extent="1-1"/>
@@ -2580,15 +2587,16 @@ design rules under a new name.</description>
 <wire x1="-50.5254" y1="55.88" x2="-42.9054" y2="55.88" width="0" layer="19" extent="1-1"/>
 <wire x1="-48.5704" y1="50.8" x2="-50.5254" y2="55.88" width="0" layer="19" extent="1-1"/>
 <wire x1="-53.6504" y1="50.8" x2="-48.5704" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="0" y1="-101.6" x2="-48.5704" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="0" y1="-88.9" x2="0" y2="-101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="0" y1="-76.2" x2="0" y2="-88.9" width="0" layer="19" extent="1-1"/>
 <wire x1="-58.1454" y1="55.88" x2="-53.6504" y2="50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-63.7746" y1="50.8" x2="-58.1454" y2="55.88" width="0" layer="19" extent="1-1"/>
 <wire x1="-63.845" y1="45.72" x2="-63.7746" y2="50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-65.7654" y1="55.88" x2="-63.7746" y2="50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.955" y1="68.58" x2="-21.8646" y2="55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="-55.88" y1="26.67" x2="-63.845" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.88" y1="26.67" x2="0" y2="-101.6" width="0" layer="19" extent="1-1"/>
 <wire x1="20.32" y1="31.7" x2="-14.169" y2="30.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.655" y1="-50.8" x2="0" y2="-48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-86.705" y1="-50.8" x2="-67.655" y2="-50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PRESS-THUMB">
 <contactref element="MCU1" pad="63"/>

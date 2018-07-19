@@ -424,24 +424,6 @@
 <wire x1="-1.1" y1="-0.675" x2="-1.1" y2="0.675" width="0.12" layer="51"/>
 <wire x1="-1.1" y1="0.675" x2="1.1" y2="0.675" width="0.12" layer="51"/>
 <wire x1="1.1" y1="0.675" x2="1.1" y2="-0.675" width="0.12" layer="51"/>
-<smd name="1" x="-0.925" y="0" dx="1.0653" dy="1.3791" layer="1" thermals="no"/>
-<smd name="2" x="0.925" y="0" dx="1.0653" dy="1.3791" layer="1" thermals="no"/>
-<text x="0" y="1.6386" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.6386" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-1.8" y1="-0.95" x2="1.8" y2="-0.95" width="0.127" layer="39"/>
-<wire x1="1.8" y1="-0.95" x2="1.8" y2="0.95" width="0.127" layer="39"/>
-<wire x1="1.8" y1="0.95" x2="-1.8" y2="0.95" width="0.127" layer="39"/>
-<wire x1="-1.8" y1="0.95" x2="-1.8" y2="-0.95" width="0.127" layer="39"/>
-</package>
-<package name="CAPC2012X95_SMD-0805@1" urn="urn:adsk.eagle:footprint:2940051/1" locally_modified="yes">
-<description>CHIP, 2 X 1.25 X 0.95 mm body
-&lt;p&gt;CHIP package with body size 2 X 1.25 X 0.95 mm&lt;/p&gt;</description>
-<wire x1="1.1" y1="0.9036" x2="-1.1" y2="0.9036" width="0.12" layer="21"/>
-<wire x1="1.1" y1="-0.9036" x2="-1.1" y2="-0.9036" width="0.12" layer="21"/>
-<wire x1="1.1" y1="-0.675" x2="-1.1" y2="-0.675" width="0.12" layer="51"/>
-<wire x1="-1.1" y1="-0.675" x2="-1.1" y2="0.675" width="0.12" layer="51"/>
-<wire x1="-1.1" y1="0.675" x2="1.1" y2="0.675" width="0.12" layer="51"/>
-<wire x1="1.1" y1="0.675" x2="1.1" y2="-0.675" width="0.12" layer="51"/>
 <smd name="1" x="-0.925" y="0" dx="1.0653" dy="1.3791" layer="1"/>
 <smd name="2" x="0.925" y="0" dx="1.0653" dy="1.3791" layer="1" thermals="no"/>
 <text x="0" y="1.2386" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
@@ -477,25 +459,6 @@
 <wire x1="1.651" y1="-0.889" x2="1.651" y2="0.889" width="0.1" layer="21"/>
 <wire x1="1.651" y1="0.889" x2="-1.651" y2="0.889" width="0.1" layer="21"/>
 </package>
-<package name="_AE_PTH_DIA10-LS5-H22">
-<wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="-1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="-1.016" x2="-0.254" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="1.016" x2="-0.762" y2="1.016" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="1.016" x2="-0.762" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.635" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-4.286" y1="0" x2="-3.778" y2="0" width="0.1524" layer="21"/>
-<wire x1="-4.032" y1="-0.254" x2="-4.032" y2="0.254" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="5" width="0.1524" layer="21"/>
-<pad name="-" x="2.5" y="0" drill="0.65" diameter="1.3"/>
-<pad name="+" x="-2.5" y="0" drill="0.65" diameter="1.3" shape="square"/>
-<rectangle x1="0.254" y1="-1.016" x2="0.762" y2="1.016" layer="51"/>
-<text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<wire x1="3.778" y1="0" x2="4.286" y2="0" width="0.1524" layer="21"/>
-<circle x="0" y="0" radius="5.25" width="0.1524" layer="39"/>
-</package>
 <package name="_AE_PTH_DIA8-LS3.5-H21.50" urn="urn:adsk.eagle:footprint:3036219/1">
 <wire x1="-1.524" y1="0" x2="-0.762" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.762" y1="0" x2="-0.762" y2="-1.016" width="0.1524" layer="51"/>
@@ -515,24 +478,6 @@
 <text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
 </package>
-<package name="CAPC1005X55_SMD-0402" urn="urn:adsk.eagle:footprint:2886557/1" locally_modified="yes">
-<description>CHIP, 1 X 0.5 X 0.55 mm body
-&lt;p&gt;CHIP package with body size 1 X 0.5 X 0.55 mm&lt;/p&gt;</description>
-<wire x1="0.5" y1="0.4699" x2="-0.5" y2="0.4699" width="0.12" layer="21"/>
-<wire x1="0.5" y1="-0.4699" x2="-0.5" y2="-0.4699" width="0.12" layer="21"/>
-<wire x1="0.525" y1="-0.25" x2="-0.525" y2="-0.25" width="0.12" layer="51"/>
-<wire x1="-0.525" y1="-0.25" x2="-0.525" y2="0.25" width="0.12" layer="51"/>
-<wire x1="-0.525" y1="0.25" x2="0.525" y2="0.25" width="0.12" layer="51"/>
-<wire x1="0.525" y1="0.25" x2="0.525" y2="-0.25" width="0.12" layer="51"/>
-<smd name="1" x="-0.4575" y="0" dx="0.5851" dy="0.6118" layer="1"/>
-<smd name="2" x="0.4575" y="0" dx="0.5851" dy="0.6118" layer="1"/>
-<text x="0" y="1.2549" size="1.27" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.2549" size="1.27" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
-<wire x1="-0.95" y1="0.47" x2="-0.95" y2="-0.47" width="0.127" layer="39"/>
-<wire x1="-0.95" y1="-0.47" x2="0.95" y2="-0.47" width="0.127" layer="39"/>
-<wire x1="0.95" y1="-0.47" x2="0.95" y2="0.47" width="0.127" layer="39"/>
-<wire x1="0.95" y1="0.47" x2="-0.95" y2="0.47" width="0.127" layer="39"/>
-</package>
 </packages>
 <packages3d>
 <package3d name="CAPC2012X95" urn="urn:adsk.eagle:package:2940050/1" locally_modified="yes" type="model">
@@ -542,23 +487,9 @@
 <packageinstance name="CAPC2012X95_SMD-0805"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPC2012X95" urn="urn:adsk.eagle:package:2940050@1/1" locally_modified="yes" type="model">
-<description>CHIP, 2 X 1.25 X 0.95 mm body
-&lt;p&gt;CHIP package with body size 2 X 1.25 X 0.95 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="CAPC2012X95_SMD-0805@1"/>
-</packageinstances>
-</package3d>
 <package3d name="_AE_PTH_DIA8-LS3.5-H21.50" urn="urn:adsk.eagle:package:3036236/2" type="model">
 <packageinstances>
 <packageinstance name="_AE_PTH_DIA8-LS3.5-H21.50"/>
-</packageinstances>
-</package3d>
-<package3d name="CAPC1005X55" urn="urn:adsk.eagle:package:2886515/1" locally_modified="yes" type="model">
-<description>CHIP, 1 X 0.5 X 0.55 mm body
-&lt;p&gt;CHIP package with body size 1 X 0.5 X 0.55 mm&lt;/p&gt;</description>
-<packageinstances>
-<packageinstance name="CAPC1005X55_SMD-0402"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -1699,13 +1630,13 @@ design rules under a new name.</description>
 <attribute name="MFR" value="Wurth Electronics Inc." x="-24.13" y="45.72" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="748421245" x="-24.13" y="45.72" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C1" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-0.925" y="-63.5">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-0.925" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-0.925" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-0.925" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="587-3364-1-ND" x="-0.925" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Taiyo Yuden" x="-0.925" y="-63.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GMK212BJ104KGHT" x="-0.925" y="-63.5" size="1.778" layer="27" display="off"/>
+<element name="C1" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-38.1" y="45.72">
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-38.1" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="Digikey" x="-38.1" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-38.1" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="587-3364-1-ND" x="-38.1" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Taiyo Yuden" x="-38.1" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GMK212BJ104KGHT" x="-38.1" y="45.72" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C10" library="PiB_capacitors" package="_CER_SMD-805" value="22PF/250V" x="-40.64" y="64.77">
 <attribute name="CREATOR" value="Kenmei" x="-40.64" y="64.77" size="1.778" layer="27" display="off"/>
@@ -1727,15 +1658,15 @@ design rules under a new name.</description>
 <attribute name="MPN" value="GQM2195C2AR75CB01D " x="-34.29" y="64.77" size="1.778" layer="27" display="off"/>
 <attribute name="TESTED" value="NO" x="-34.29" y="64.77" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C12" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-0.925" y="-101.6">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-0.925" y="-101.6" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-0.925" y="-101.6" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-0.925" y="-101.6" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="587-3364-1-ND" x="-0.925" y="-101.6" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Taiyo Yuden" x="-0.925" y="-101.6" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GMK212BJ104KGHT" x="-0.925" y="-101.6" size="1.778" layer="27" display="off"/>
+<element name="C12" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-49.53" y="45.72">
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-49.53" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="Digikey" x="-49.53" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-49.53" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="587-3364-1-ND" x="-49.53" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Taiyo Yuden" x="-49.53" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GMK212BJ104KGHT" x="-49.53" y="45.72" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C13" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="10uF/25V" x="-26.67" y="50.8">
+<element name="C13" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="10uF/25V" x="-26.67" y="50.8">
 <attribute name="DATASHEET" value="https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" x="-26.67" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DIST" value="Digikey" x="-26.67" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-2985-1-ND" x="-26.67" y="50.8" size="1.778" layer="27" display="off"/>
@@ -1743,7 +1674,7 @@ design rules under a new name.</description>
 <attribute name="MFR" value="Taiyo Yuden" x="-26.67" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="TMK212BBJ106KG-T" x="-26.67" y="50.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C14" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="10uF/25V" x="-30.48" y="50.8">
+<element name="C14" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="10uF/25V" x="-30.48" y="50.8">
 <attribute name="DATASHEET" value="https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" x="-30.48" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DIST" value="Digikey" x="-30.48" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-2985-1-ND" x="-30.48" y="50.8" size="1.778" layer="27" display="off"/>
@@ -1751,7 +1682,7 @@ design rules under a new name.</description>
 <attribute name="MFR" value="Taiyo Yuden" x="-30.48" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="TMK212BBJ106KG-T" x="-30.48" y="50.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C15" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="10uF/25V" x="-34.29" y="50.8">
+<element name="C15" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="10uF/25V" x="-34.29" y="50.8">
 <attribute name="DATASHEET" value="https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" x="-34.29" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DIST" value="Digikey" x="-34.29" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-2985-1-ND" x="-34.29" y="50.8" size="1.778" layer="27" display="off"/>
@@ -1759,15 +1690,15 @@ design rules under a new name.</description>
 <attribute name="MFR" value="Taiyo Yuden" x="-34.29" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="TMK212BBJ106KG-T" x="-34.29" y="50.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C16" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-0.925" y="-114.3">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-0.925" y="-114.3" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-0.925" y="-114.3" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-0.925" y="-114.3" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="587-3364-1-ND" x="-0.925" y="-114.3" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Taiyo Yuden" x="-0.925" y="-114.3" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GMK212BJ104KGHT" x="-0.925" y="-114.3" size="1.778" layer="27" display="off"/>
+<element name="C16" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-53.34" y="45.72">
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-53.34" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="Digikey" x="-53.34" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-53.34" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="587-3364-1-ND" x="-53.34" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Taiyo Yuden" x="-53.34" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GMK212BJ104KGHT" x="-53.34" y="45.72" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C17" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="1uF/25V" x="-38.1" y="50.8">
+<element name="C17" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="1uF/25V" x="-38.1" y="50.8">
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R61E105KA12-01.pdf" x="-38.1" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DIST" value="Digikey" x="-38.1" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1700-1-ND" x="-38.1" y="50.8" size="1.778" layer="27" display="off"/>
@@ -1775,23 +1706,23 @@ design rules under a new name.</description>
 <attribute name="MFR" value="Murata Electronics North America" x="-38.1" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM216R61E105KA12D" x="-38.1" y="50.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C18" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-0.925" y="-127">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-0.925" y="-127" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-0.925" y="-127" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-0.925" y="-127" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="587-3364-1-ND" x="-0.925" y="-127" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Taiyo Yuden" x="-0.925" y="-127" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GMK212BJ104KGHT" x="-0.925" y="-127" size="1.778" layer="27" display="off"/>
+<element name="C18" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-57.15" y="45.72">
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-57.15" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="Digikey" x="-57.15" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-57.15" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="587-3364-1-ND" x="-57.15" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Taiyo Yuden" x="-57.15" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GMK212BJ104KGHT" x="-57.15" y="45.72" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C19" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-0.925" y="-139.7">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-0.925" y="-139.7" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-0.925" y="-139.7" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-0.925" y="-139.7" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="587-3364-1-ND" x="-0.925" y="-139.7" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Taiyo Yuden" x="-0.925" y="-139.7" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GMK212BJ104KGHT" x="-0.925" y="-139.7" size="1.778" layer="27" display="off"/>
+<element name="C19" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-60.96" y="45.72">
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-60.96" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="Digikey" x="-60.96" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-60.96" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="587-3364-1-ND" x="-60.96" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Taiyo Yuden" x="-60.96" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GMK212BJ104KGHT" x="-60.96" y="45.72" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C2" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="1uF/25V" x="-64.77" y="45.72">
+<element name="C2" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="1uF/25V" x="-64.77" y="45.72">
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R61E105KA12-01.pdf" x="-64.77" y="45.72" size="1.778" layer="27" display="off"/>
 <attribute name="DIST" value="Digikey" x="-64.77" y="45.72" size="1.778" layer="27" display="off"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1700-1-ND" x="-64.77" y="45.72" size="1.778" layer="27" display="off"/>
@@ -1799,7 +1730,7 @@ design rules under a new name.</description>
 <attribute name="MFR" value="Murata Electronics North America" x="-64.77" y="45.72" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM216R61E105KA12D" x="-64.77" y="45.72" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C20" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="10uF/25V" x="-41.91" y="50.8">
+<element name="C20" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="10uF/25V" x="-41.91" y="50.8">
 <attribute name="DATASHEET" value="https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" x="-41.91" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DIST" value="Digikey" x="-41.91" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-2985-1-ND" x="-41.91" y="50.8" size="1.778" layer="27" display="off"/>
@@ -1807,7 +1738,7 @@ design rules under a new name.</description>
 <attribute name="MFR" value="Taiyo Yuden" x="-41.91" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="TMK212BBJ106KG-T" x="-41.91" y="50.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C21" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="10uF/25V" x="-45.72" y="50.8">
+<element name="C21" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="10uF/25V" x="-45.72" y="50.8">
 <attribute name="DATASHEET" value="https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" x="-45.72" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DIST" value="Digikey" x="-45.72" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-2985-1-ND" x="-45.72" y="50.8" size="1.778" layer="27" display="off"/>
@@ -1815,7 +1746,7 @@ design rules under a new name.</description>
 <attribute name="MFR" value="Taiyo Yuden" x="-45.72" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="TMK212BBJ106KG-T" x="-45.72" y="50.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C3" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="1uF/25V" x="-15.24" y="50.8">
+<element name="C3" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="1uF/25V" x="-15.24" y="50.8">
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R61E105KA12-01.pdf" x="-15.24" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DIST" value="Digikey" x="-15.24" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1700-1-ND" x="-15.24" y="50.8" size="1.778" layer="27" display="off"/>
@@ -1823,7 +1754,7 @@ design rules under a new name.</description>
 <attribute name="MFR" value="Murata Electronics North America" x="-15.24" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM216R61E105KA12D" x="-15.24" y="50.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C4" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="1uF/25V" x="-19.05" y="50.8">
+<element name="C4" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="1uF/25V" x="-19.05" y="50.8">
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R61E105KA12-01.pdf" x="-19.05" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DIST" value="Digikey" x="-19.05" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1700-1-ND" x="-19.05" y="50.8" size="1.778" layer="27" display="off"/>
@@ -1831,7 +1762,7 @@ design rules under a new name.</description>
 <attribute name="MFR" value="Murata Electronics North America" x="-19.05" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM216R61E105KA12D" x="-19.05" y="50.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C5" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="1uF/25V" x="-22.86" y="50.8">
+<element name="C5" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="1uF/25V" x="-22.86" y="50.8">
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R61E105KA12-01.pdf" x="-22.86" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DIST" value="Digikey" x="-22.86" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1700-1-ND" x="-22.86" y="50.8" size="1.778" layer="27" display="off"/>
@@ -1839,7 +1770,7 @@ design rules under a new name.</description>
 <attribute name="MFR" value="Murata Electronics North America" x="-22.86" y="50.8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM216R61E105KA12D" x="-22.86" y="50.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C6" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="12pF/250V" x="-27.94" y="45.72">
+<element name="C6" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="12pF/250V" x="-27.94" y="45.72">
 <attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21A5C2E120JW01-01.pdf" x="-27.94" y="45.72" size="1.778" layer="27" display="off"/>
 <attribute name="DIST" value="Digikey" x="-27.94" y="45.72" size="1.778" layer="27" display="off"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-5531-1-ND" x="-27.94" y="45.72" size="1.778" layer="27" display="off"/>
@@ -1847,7 +1778,7 @@ design rules under a new name.</description>
 <attribute name="MFR" value="Murata Electronics North America" x="-27.94" y="45.72" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM21A5C2E120JW01D" x="-27.94" y="45.72" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C7" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="12pF/250V" x="-33.02" y="45.72">
+<element name="C7" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="12pF/250V" x="-33.02" y="45.72">
 <attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21A5C2E120JW01-01.pdf" x="-33.02" y="45.72" size="1.778" layer="27" display="off"/>
 <attribute name="DIST" value="Digikey" x="-33.02" y="45.72" size="1.778" layer="27" display="off"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-5531-1-ND" x="-33.02" y="45.72" size="1.778" layer="27" display="off"/>
@@ -1855,21 +1786,21 @@ design rules under a new name.</description>
 <attribute name="MFR" value="Murata Electronics North America" x="-33.02" y="45.72" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="GRM21A5C2E120JW01D" x="-33.02" y="45.72" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C8" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-0.925" y="-76.2">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-0.925" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-0.925" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-0.925" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="587-3364-1-ND" x="-0.925" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Taiyo Yuden" x="-0.925" y="-76.2" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GMK212BJ104KGHT" x="-0.925" y="-76.2" size="1.778" layer="27" display="off"/>
+<element name="C8" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-41.91" y="45.72">
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-41.91" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="Digikey" x="-41.91" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-41.91" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="587-3364-1-ND" x="-41.91" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Taiyo Yuden" x="-41.91" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GMK212BJ104KGHT" x="-41.91" y="45.72" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C9" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-0.925" y="-88.9">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-0.925" y="-88.9" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-0.925" y="-88.9" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-0.925" y="-88.9" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="587-3364-1-ND" x="-0.925" y="-88.9" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Taiyo Yuden" x="-0.925" y="-88.9" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GMK212BJ104KGHT" x="-0.925" y="-88.9" size="1.778" layer="27" display="off"/>
+<element name="C9" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-45.72" y="45.72">
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-45.72" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="Digikey" x="-45.72" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-45.72" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="587-3364-1-ND" x="-45.72" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Taiyo Yuden" x="-45.72" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GMK212BJ104KGHT" x="-45.72" y="45.72" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D1" library="PiB_discrete_semiconductors" package="SODFL3516X170" package3d_urn="urn:adsk.eagle:package:2939213/1" value="" x="-54.61" y="63.5">
 <attribute name="DATASHEET" value="http://www.comchiptech.com/cms/UserFiles/CGRKM4001-HF%20Thru.%20CGRKM4007-HF%20RevG.pdf" x="-54.61" y="63.5" size="1.778" layer="27" display="off"/>
@@ -2324,109 +2255,21 @@ design rules under a new name.</description>
 <attribute name="MFR" value="United Chemi-Con" x="-62.23" y="-5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="EKZM160ELL102MH20D" x="-62.23" y="-5.08" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C23" library="PiB_capacitors" package="_AE_PTH_DIA10-LS5-H22" value="470uF/50V" x="-2.5" y="-35.56">
-<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Capacitors%20PDFs/ECA-xxM%20Spec.pdf" x="-2.5" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-2.5" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=P5185-ND" x="-2.5" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="P5185-ND" x="-2.5" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Panasonic Electronic Components" x="-2.5" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ECA-1HM471" x="-2.5" y="-35.56" size="1.778" layer="27" display="off"/>
+<element name="C23" library="PiB_capacitors" package="_AE_PTH_DIA8-LS3.5-H21.50" package3d_urn="urn:adsk.eagle:package:3036236/2" value="1000uF/16V" x="-62.23" y="-13.97">
+<attribute name="DATASHEET" value="http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&amp;j=p&amp;pdfname=kzm" x="-62.23" y="-13.97" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="Digikey" x="-62.23" y="-13.97" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=565-3567-ND" x="-62.23" y="-13.97" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="565-3567-ND" x="-62.23" y="-13.97" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="United Chemi-Con" x="-62.23" y="-13.97" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="EKZM160ELL102MH20D" x="-62.23" y="-13.97" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C24" library="PiB_capacitors" package="_AE_PTH_DIA10-LS5-H22" value="470uF/50V" x="-2.5" y="-48.26">
-<attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Capacitors%20PDFs/ECA-xxM%20Spec.pdf" x="-2.5" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-2.5" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=P5185-ND" x="-2.5" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="P5185-ND" x="-2.5" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Panasonic Electronic Components" x="-2.5" y="-48.26" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="ECA-1HM471" x="-2.5" y="-48.26" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C25" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="1uF/25V" x="-68.58" y="-50.8">
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R61E105KA12-01.pdf" x="-68.58" y="-50.8" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-68.58" y="-50.8" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1700-1-ND" x="-68.58" y="-50.8" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="490-1700-1-ND" x="-68.58" y="-50.8" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="-68.58" y="-50.8" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GRM216R61E105KA12D" x="-68.58" y="-50.8" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C27" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-0.925" y="-152.4">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-0.925" y="-152.4" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-0.925" y="-152.4" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-0.925" y="-152.4" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="587-3364-1-ND" x="-0.925" y="-152.4" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Taiyo Yuden" x="-0.925" y="-152.4" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GMK212BJ104KGHT" x="-0.925" y="-152.4" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C28" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-0.925" y="-165.1">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-0.925" y="-165.1" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-0.925" y="-165.1" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-0.925" y="-165.1" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="587-3364-1-ND" x="-0.925" y="-165.1" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Taiyo Yuden" x="-0.925" y="-165.1" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GMK212BJ104KGHT" x="-0.925" y="-165.1" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C29" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-0.925" y="-177.8">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-0.925" y="-177.8" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-0.925" y="-177.8" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-0.925" y="-177.8" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="587-3364-1-ND" x="-0.925" y="-177.8" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Taiyo Yuden" x="-0.925" y="-177.8" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GMK212BJ104KGHT" x="-0.925" y="-177.8" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C30" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="1uF/25V" x="-87.63" y="-50.8">
-<attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R61E105KA12-01.pdf" x="-87.63" y="-50.8" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-87.63" y="-50.8" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-1700-1-ND" x="-87.63" y="-50.8" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="490-1700-1-ND" x="-87.63" y="-50.8" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Murata Electronics North America" x="-87.63" y="-50.8" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GRM216R61E105KA12D" x="-87.63" y="-50.8" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C31" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="-0.925" y="-190.5">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="-0.925" y="-190.5" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-0.925" y="-190.5" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="-0.925" y="-190.5" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="587-3364-1-ND" x="-0.925" y="-190.5" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Taiyo Yuden" x="-0.925" y="-190.5" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GMK212BJ104KGHT" x="-0.925" y="-190.5" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C32" library="PiB_capacitors" package="CAPC1005X55_SMD-0402" package3d_urn="urn:adsk.eagle:package:2886515/1" value="0.1uF/50V" x="-87.63" y="-57.15">
-<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGA2B3X5R1H104K050BB.pdf" x="-85.09" y="-198.12" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-85.09" y="-198.12" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-12213-1-ND" x="-85.09" y="-198.12" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="445-12213-1-ND" x="-85.09" y="-198.12" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="TDK Corporation" x="-85.09" y="-198.12" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CGA2B3X5R1H104K050BB" x="-85.09" y="-198.12" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C33" library="PiB_capacitors" package="CAPC1005X55_SMD-0402" package3d_urn="urn:adsk.eagle:package:2886515/1" value="0.1uF/50V" x="-87.63" y="-198.12">
-<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGA2B3X5R1H104K050BB.pdf" x="-87.63" y="-198.12" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-87.63" y="-198.12" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-12213-1-ND" x="-87.63" y="-198.12" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="445-12213-1-ND" x="-87.63" y="-198.12" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="TDK Corporation" x="-87.63" y="-198.12" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CGA2B3X5R1H104K050BB" x="-87.63" y="-198.12" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C34" library="PiB_capacitors" package="CAPC1005X55_SMD-0402" package3d_urn="urn:adsk.eagle:package:2886515/1" value="0.1uF/50V" x="-87.63" y="-204.47">
-<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGA2B3X5R1H104K050BB.pdf" x="-87.63" y="-204.47" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-87.63" y="-204.47" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-12213-1-ND" x="-87.63" y="-204.47" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="445-12213-1-ND" x="-87.63" y="-204.47" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="TDK Corporation" x="-87.63" y="-204.47" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CGA2B3X5R1H104K050BB" x="-87.63" y="-204.47" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C35" library="PiB_capacitors" package="CAPC1005X55_SMD-0402" package3d_urn="urn:adsk.eagle:package:2886515/1" value="0.1uF/50V" x="-87.63" y="-210.82">
-<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGA2B3X5R1H104K050BB.pdf" x="-87.63" y="-210.82" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-87.63" y="-210.82" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-12213-1-ND" x="-87.63" y="-210.82" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="445-12213-1-ND" x="-87.63" y="-210.82" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="TDK Corporation" x="-87.63" y="-210.82" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CGA2B3X5R1H104K050BB" x="-87.63" y="-210.82" size="1.778" layer="27" display="off"/>
-</element>
-<element name="C36" library="PiB_capacitors" package="CAPC1005X55_SMD-0402" package3d_urn="urn:adsk.eagle:package:2886515/1" value="0.1uF/50V" x="-87.63" y="-217.17">
-<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGA2B3X5R1H104K050BB.pdf" x="-87.63" y="-217.17" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="-87.63" y="-217.17" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-12213-1-ND" x="-87.63" y="-217.17" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="445-12213-1-ND" x="-87.63" y="-217.17" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="TDK Corporation" x="-87.63" y="-217.17" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CGA2B3X5R1H104K050BB" x="-87.63" y="-217.17" size="1.778" layer="27" display="off"/>
+<element name="C24" library="PiB_capacitors" package="_AE_PTH_DIA8-LS3.5-H21.50" package3d_urn="urn:adsk.eagle:package:3036236/2" value="1000uF/16V" x="-62.23" y="-22.86">
+<attribute name="DATASHEET" value="http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&amp;j=p&amp;pdfname=kzm" x="-62.23" y="-22.86" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="Digikey" x="-62.23" y="-22.86" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=565-3567-ND" x="-62.23" y="-22.86" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="565-3567-ND" x="-62.23" y="-22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="United Chemi-Con" x="-62.23" y="-22.86" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="EKZM160ELL102MH20D" x="-62.23" y="-22.86" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -2454,40 +2297,28 @@ design rules under a new name.</description>
 <contactref element="C12" pad="1"/>
 <contactref element="L2" pad="1"/>
 <contactref element="D2" pad="A"/>
-<contactref element="C25" pad="1"/>
-<contactref element="C29" pad="1"/>
-<contactref element="C28" pad="1"/>
-<contactref element="C31" pad="1"/>
-<contactref element="C30" pad="1"/>
-<contactref element="C27" pad="1"/>
-<wire x1="-1.85" y1="-177.8" x2="-1.85" y2="-190.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.85" y1="-165.1" x2="-1.85" y2="-177.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.85" y1="-152.4" x2="-1.85" y2="-165.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.85" y1="-101.6" x2="-1.85" y2="-152.4" width="0" layer="19" extent="1-1"/>
-<wire x1="-69.505" y1="-50.8" x2="-1.85" y2="-101.6" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.555" y1="-50.8" x2="-69.505" y2="-50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.8" y1="23.059" x2="-69.505" y2="-50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.169" y1="24.69" x2="-19.8" y2="23.059" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.169" y1="29.69" x2="-14.169" y2="24.69" width="0" layer="19" extent="1-1"/>
-<wire x1="-17.8" y1="32.821" x2="-14.169" y2="29.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.6746" y1="59.69" x2="-21.8646" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.4846" y1="59.69" x2="-25.6746" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.975" y1="50.8" x2="-21.8646" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.785" y1="50.8" x2="-19.975" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.405" y1="50.8" x2="-23.785" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.3066" y1="38.735" x2="-19.975" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-15.3066" y1="37.465" x2="-15.3066" y2="38.735" width="0" layer="19" extent="1-1"/>
+<wire x1="-17.8" y1="32.821" x2="-15.3066" y2="37.465" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.3" y1="32.821" x2="-17.8" y2="32.821" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.3066" y1="37.465" x2="-17.8" y2="32.821" width="0" layer="19" extent="1-1"/>
-<wire x1="-15.3066" y1="38.735" x2="-15.3066" y2="37.465" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.169" y1="29.69" x2="-17.8" y2="32.821" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.169" y1="24.69" x2="-14.169" y2="29.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.8" y1="23.059" x2="-14.169" y2="24.69" width="0" layer="19" extent="1-1"/>
 <wire x1="-26.67" y1="36.83" x2="-20.3" y2="32.821" width="0" layer="19" extent="1-1"/>
 <wire x1="-33.02" y1="36.83" x2="-26.67" y2="36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="-39.37" y1="36.83" x2="-33.02" y2="36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="-45.72" y1="36.83" x2="-39.37" y2="36.83" width="0" layer="19" extent="1-1"/>
 <wire x1="-52.07" y1="36.83" x2="-45.72" y2="36.83" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.975" y1="50.8" x2="-15.3066" y2="38.735" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.785" y1="50.8" x2="-19.975" y2="50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.405" y1="50.8" x2="-23.785" y2="50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-21.8646" y1="59.69" x2="-19.975" y2="50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-25.6746" y1="59.69" x2="-21.8646" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="-29.4846" y1="59.69" x2="-25.6746" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="-50.53" y1="64.77" x2="-29.4846" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="-53.1206" y1="63.5" x2="-50.53" y2="64.77" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.455" y1="45.72" x2="-52.07" y2="36.83" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.1206" y1="63.5" x2="-50.455" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.53" y1="64.77" x2="-53.1206" y2="63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-62.4494" y1="63.5" x2="-53.1206" y2="63.5" width="0" layer="19" extent="1-1"/>
-<wire x1="20.32" y1="26.62" x2="-14.169" y2="24.69" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="26.62" x2="-19.8" y2="23.059" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="R1" pad="2"/>
@@ -2535,60 +2366,50 @@ design rules under a new name.</description>
 <contactref element="C15" pad="2"/>
 <contactref element="C23" pad="-"/>
 <contactref element="C24" pad="-"/>
-<contactref element="C25" pad="2"/>
-<contactref element="C29" pad="2"/>
-<contactref element="C30" pad="2"/>
-<contactref element="C31" pad="2"/>
-<contactref element="C27" pad="2"/>
-<wire x1="0" y1="-177.8" x2="0" y2="-190.5" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-152.4" x2="0" y2="-177.8" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-101.6" x2="0" y2="-152.4" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-88.9" x2="0" y2="-101.6" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-76.2" x2="0" y2="-88.9" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-48.26" x2="0" y2="-76.2" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-35.56" x2="0" y2="-48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.35" y1="16.51" x2="0" y2="-35.56" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.169" y1="24.19" x2="-14.35" y2="16.51" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.169" y1="25.19" x2="-14.169" y2="24.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.169" y1="30.19" x2="-14.169" y2="25.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.3" y1="32.821" x2="-14.169" y2="30.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.3" y1="23.059" x2="-14.169" y2="24.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-21.3" y1="23.059" x2="-19.3" y2="23.059" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.931" y1="26.69" x2="-21.3" y2="23.059" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.931" y1="27.19" x2="-23.931" y2="26.69" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.931" y1="28.69" x2="-23.931" y2="27.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.2534" y1="40.005" x2="-18.3" y2="32.821" width="0" layer="19" extent="1-1"/>
-<wire x1="-20.2534" y1="41.275" x2="-20.2534" y2="40.005" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.3996" y1="45.72" x2="-20.2534" y2="41.275" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.015" y1="45.72" x2="-23.3996" y2="45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="-32.095" y1="45.72" x2="-27.015" y2="45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="-25.745" y1="50.8" x2="-27.015" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.48" y1="-13.97" x2="-60.48" y2="-22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-55.88" y1="26.67" x2="-60.48" y2="-13.97" width="0" layer="19" extent="1-1"/>
+<wire x1="-48.605" y1="45.72" x2="-55.88" y2="26.67" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.795" y1="45.72" x2="-48.605" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.985" y1="45.72" x2="-44.795" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-48.5704" y1="50.8" x2="-48.605" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.6504" y1="50.8" x2="-48.5704" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.5254" y1="55.88" x2="-48.5704" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.1454" y1="55.88" x2="-53.6504" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.7746" y1="50.8" x2="-58.1454" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.845" y1="45.72" x2="-63.7746" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-65.7654" y1="55.88" x2="-63.7746" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.9054" y1="55.88" x2="-48.5704" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.2854" y1="55.88" x2="-42.9054" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.2854" y1="59.69" x2="-35.2854" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.29" y1="64.77" x2="-35.2854" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.365" y1="50.8" x2="-35.2854" y2="55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.555" y1="50.8" x2="-33.365" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.745" y1="50.8" x2="-29.555" y2="50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.935" y1="50.8" x2="-25.745" y2="50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-29.555" y1="50.8" x2="-25.745" y2="50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-33.365" y1="50.8" x2="-29.555" y2="50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.8646" y1="55.88" x2="-21.935" y2="50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-18.0546" y1="55.88" x2="-21.8646" y2="55.88" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.2446" y1="55.88" x2="-18.0546" y2="55.88" width="0" layer="19" extent="1-1"/>
 <wire x1="-25.6746" y1="55.88" x2="-21.8646" y2="55.88" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.315" y1="50.8" x2="-14.2446" y2="55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="-35.2854" y1="55.88" x2="-33.365" y2="50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-35.2854" y1="59.69" x2="-35.2854" y2="55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="-35.29" y1="64.77" x2="-35.2854" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-27.015" y1="45.72" x2="-25.745" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.3996" y1="45.72" x2="-27.015" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-32.095" y1="45.72" x2="-27.015" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.2534" y1="41.275" x2="-23.3996" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.2534" y1="40.005" x2="-20.2534" y2="41.275" width="0" layer="19" extent="1-1"/>
 <wire x1="-41.64" y1="64.77" x2="-35.29" y2="64.77" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.72" y1="64.77" x2="-41.64" y2="64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="-42.9054" y1="55.88" x2="-35.2854" y2="55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="-50.5254" y1="55.88" x2="-42.9054" y2="55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="-48.5704" y1="50.8" x2="-50.5254" y2="55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="-53.6504" y1="50.8" x2="-48.5704" y2="50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.1454" y1="55.88" x2="-53.6504" y2="50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-63.7746" y1="50.8" x2="-58.1454" y2="55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="-63.845" y1="45.72" x2="-63.7746" y2="50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-65.7654" y1="55.88" x2="-63.7746" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.3" y1="32.821" x2="-20.2534" y2="40.005" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.169" y1="30.19" x2="-18.3" y2="32.821" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.169" y1="25.19" x2="-14.169" y2="30.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.169" y1="24.19" x2="-14.169" y2="25.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.3" y1="23.059" x2="-14.169" y2="24.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.3" y1="23.059" x2="-19.3" y2="23.059" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.931" y1="26.69" x2="-21.3" y2="23.059" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.931" y1="27.19" x2="-23.931" y2="26.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.931" y1="28.69" x2="-23.931" y2="27.19" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.35" y1="16.51" x2="-14.169" y2="24.19" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.955" y1="68.58" x2="-21.8646" y2="55.88" width="0" layer="19" extent="1-1"/>
-<wire x1="-55.88" y1="26.67" x2="-63.845" y2="45.72" width="0" layer="19" extent="1-1"/>
 <wire x1="20.32" y1="31.7" x2="-14.169" y2="30.19" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.655" y1="-50.8" x2="0" y2="-48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-86.705" y1="-50.8" x2="-67.655" y2="-50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PRESS-THUMB">
 <contactref element="MCU1" pad="63"/>
@@ -2676,25 +2497,15 @@ design rules under a new name.</description>
 <contactref element="C21" pad="1"/>
 <contactref element="C19" pad="1"/>
 <contactref element="C22" pad="+"/>
-<contactref element="C32" pad="1"/>
-<contactref element="C33" pad="1"/>
-<contactref element="C34" pad="1"/>
-<contactref element="C35" pad="1"/>
-<contactref element="C36" pad="1"/>
-<wire x1="-63.98" y1="-5.08" x2="-88.0875" y2="-57.15" width="0" layer="19" extent="1-1"/>
 <wire x1="-59.6507" y1="5.918" x2="-63.98" y2="-5.08" width="0" layer="19" extent="1-1"/>
-<wire x1="-46.645" y1="50.8" x2="-59.6507" y2="5.918" width="0" layer="19" extent="1-1"/>
-<wire x1="-49.53" y1="59.69" x2="-46.645" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.885" y1="45.72" x2="-59.6507" y2="5.918" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.42" y1="59.69" x2="-61.885" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-49.53" y1="59.69" x2="-58.42" y2="59.69" width="0" layer="19" extent="1-1"/>
 <wire x1="-40.64" y1="59.69" x2="-49.53" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="-58.42" y1="59.69" x2="-49.53" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.645" y1="50.8" x2="-49.53" y2="59.69" width="0" layer="19" extent="1-1"/>
 <wire x1="-26.67" y1="63.5" x2="-40.64" y2="59.69" width="0" layer="19" extent="1-1"/>
 <wire x1="-17.78" y1="63.5" x2="-26.67" y2="63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-17.9994" y1="68.58" x2="-17.78" y2="63.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.85" y1="-139.7" x2="-88.0875" y2="-57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.0875" y1="-198.12" x2="-1.85" y2="-139.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.0875" y1="-204.47" x2="-88.0875" y2="-198.12" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.0875" y1="-210.82" x2="-88.0875" y2="-204.47" width="0" layer="19" extent="1-1"/>
-<wire x1="-88.0875" y1="-217.17" x2="-88.0875" y2="-210.82" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NGND">
 <contactref element="SERVO6" pad="GND"/>
@@ -2710,15 +2521,11 @@ design rules under a new name.</description>
 <contactref element="C21" pad="2"/>
 <contactref element="C19" pad="2"/>
 <contactref element="C22" pad="-"/>
-<contactref element="C32" pad="2"/>
-<contactref element="C33" pad="2"/>
-<contactref element="C34" pad="2"/>
-<contactref element="C35" pad="2"/>
-<contactref element="C36" pad="2"/>
-<wire x1="-60.48" y1="-5.08" x2="-87.1725" y2="-57.15" width="0" layer="19" extent="1-1"/>
 <wire x1="-59.6507" y1="7.62" x2="-60.48" y2="-5.08" width="0" layer="19" extent="1-1"/>
 <wire x1="-50.8052" y1="7.62" x2="-59.6507" y2="7.62" width="0" layer="19" extent="1-1"/>
-<wire x1="-44.795" y1="50.8" x2="-50.8052" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.035" y1="45.72" x2="-59.6507" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.225" y1="45.72" x2="-60.035" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-44.795" y1="50.8" x2="-56.225" y2="45.72" width="0" layer="19" extent="1-1"/>
 <wire x1="-40.985" y1="50.8" x2="-44.795" y2="50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.99" y1="59.69" x2="-44.795" y2="50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.1" y1="59.69" x2="-46.99" y2="59.69" width="0" layer="19" extent="1-1"/>
@@ -2726,12 +2533,6 @@ design rules under a new name.</description>
 <wire x1="-24.13" y1="63.5" x2="-38.1" y2="59.69" width="0" layer="19" extent="1-1"/>
 <wire x1="-22.225" y1="68.58" x2="-24.13" y2="63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-15.24" y1="63.5" x2="-22.225" y2="68.58" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-127" x2="-87.1725" y2="-57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="0" y1="-139.7" x2="0" y2="-127" width="0" layer="19" extent="1-1"/>
-<wire x1="-87.1725" y1="-198.12" x2="0" y2="-139.7" width="0" layer="19" extent="1-1"/>
-<wire x1="-87.1725" y1="-204.47" x2="-87.1725" y2="-198.12" width="0" layer="19" extent="1-1"/>
-<wire x1="-87.1725" y1="-210.82" x2="-87.1725" y2="-204.47" width="0" layer="19" extent="1-1"/>
-<wire x1="-87.1725" y1="-217.17" x2="-87.1725" y2="-210.82" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="SERVO1" pad="SIG"/>
@@ -2762,7 +2563,7 @@ design rules under a new name.</description>
 <signal name="N$10">
 <contactref element="FTDI1" pad="DTR"/>
 <contactref element="C1" pad="2"/>
-<wire x1="0" y1="-63.5" x2="20.32" y2="19" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.175" y1="45.72" x2="20.32" y2="19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MISO">
 <contactref element="AVR_ISP1" pad="MISO"/>
@@ -2785,10 +2586,10 @@ design rules under a new name.</description>
 <contactref element="MCU1" pad="12"/>
 <contactref element="R20" pad="1"/>
 <contactref element="D1" pad="A"/>
-<wire x1="-1.85" y1="-63.5" x2="-55.88" y2="24.13" width="0" layer="19" extent="1-1"/>
-<wire x1="-31.4754" y1="59.69" x2="-1.85" y2="-63.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-56.0994" y1="63.5" x2="-1.85" y2="-63.5" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.931" y1="26.19" x2="-1.85" y2="-63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.025" y1="45.72" x2="-55.88" y2="24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.4754" y1="59.69" x2="-39.025" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.0994" y1="63.5" x2="-39.025" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-23.931" y1="26.19" x2="-39.025" y2="45.72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="AVR_ISP1" pad="VCC"/>
@@ -2908,13 +2709,11 @@ design rules under a new name.</description>
 <contactref element="NET_BRIDGE2" pad="P$2"/>
 <contactref element="C16" pad="2"/>
 <contactref element="C17" pad="2"/>
-<contactref element="C28" pad="2"/>
-<wire x1="0" y1="-114.3" x2="0" y2="-165.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-37.175" y1="50.8" x2="0" y2="-114.3" width="0" layer="19" extent="1-1"/>
-<wire x1="-18.125" y1="50.8" x2="-37.175" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.125" y1="50.8" x2="-23.495" y2="68.58" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.8" y1="32.821" x2="-18.125" y2="50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.3" y1="32.821" x2="-19.8" y2="32.821" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.495" y1="68.58" x2="-18.125" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-37.175" y1="50.8" x2="-18.125" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.415" y1="45.72" x2="-37.175" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="XTAL1" pad="1"/>
@@ -2986,8 +2785,8 @@ design rules under a new name.</description>
 <contactref element="C23" pad="+"/>
 <contactref element="C24" pad="+"/>
 <contactref element="VREG2" pad="1"/>
-<wire x1="-5" y1="-35.56" x2="-5" y2="-48.26" width="0" layer="19" extent="1-1"/>
-<wire x1="-59.6507" y1="9.322" x2="-5" y2="-35.56" width="0" layer="19" extent="1-1"/>
+<wire x1="-63.98" y1="-13.97" x2="-63.98" y2="-22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.6507" y1="9.322" x2="-63.98" y2="-13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="-59.6507" y1="11.024" x2="-59.6507" y2="9.322" width="0" layer="19" extent="1-1"/>
 <wire x1="-29.21" y1="23.24" x2="-59.6507" y2="11.024" width="0" layer="19" extent="1-1"/>
 <wire x1="-20.2534" y1="37.465" x2="-29.21" y2="23.24" width="0" layer="19" extent="1-1"/>
@@ -2995,10 +2794,10 @@ design rules under a new name.</description>
 <wire x1="-27.595" y1="50.8" x2="-20.2534" y2="38.735" width="0" layer="19" extent="1-1"/>
 <wire x1="-35.215" y1="50.8" x2="-27.595" y2="50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.835" y1="50.8" x2="-35.215" y2="50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.85" y1="-76.2" x2="-42.835" y2="50.8" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.85" y1="-88.9" x2="-1.85" y2="-76.2" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.85" y1="-127" x2="-1.85" y2="-88.9" width="0" layer="19" extent="1-1"/>
-<wire x1="-60.6496" y1="50.8" x2="-1.85" y2="-127" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.835" y1="45.72" x2="-42.835" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-46.645" y1="45.72" x2="-42.835" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-58.075" y1="45.72" x2="-46.645" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="-60.6496" y1="50.8" x2="-58.075" y2="45.72" width="0" layer="19" extent="1-1"/>
 <wire x1="-59.4706" y1="63.5" x2="-60.6496" y2="50.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-15.0206" y1="68.58" x2="-27.595" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -3012,7 +2811,7 @@ design rules under a new name.</description>
 <contactref element="C17" pad="1"/>
 <contactref element="C16" pad="1"/>
 <wire x1="-39.025" y1="50.8" x2="-48.53" y2="64.77" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.85" y1="-114.3" x2="-39.025" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.265" y1="45.72" x2="-39.025" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

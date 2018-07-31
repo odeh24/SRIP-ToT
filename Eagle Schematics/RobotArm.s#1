@@ -5021,11 +5021,8 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="SUPPLY63" library="PiB_power_symbols" deviceset="GND" device=""/>
 <part name="SUPPLY64" library="PiB_power_symbols" deviceset="GND" device=""/>
 <part name="SUPPLY65" library="PiB_power_symbols" deviceset="VCC" device=""/>
-<part name="SUPPLY66" library="PiB_power_symbols" deviceset="VCC" device=""/>
 <part name="C25" library="PiB_capacitors" deviceset="1UF" device="_CER_SMD-0805_25V-10%" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="1uF/25V"/>
-<part name="C26" library="PiB_capacitors" deviceset="1UF" device="_CER_SMD-0805_25V-10%" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="1uF/25V"/>
 <part name="SUPPLY67" library="PiB_power_symbols" deviceset="GND" device=""/>
-<part name="SUPPLY68" library="PiB_power_symbols" deviceset="GND" device=""/>
 <part name="C27" library="PiB_capacitors" deviceset="0.1UF" device="_SMD-0805_35V-10%" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V"/>
 <part name="C28" library="PiB_capacitors" deviceset="0.1UF" device="_SMD-0805_35V-10%" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V"/>
 <part name="C29" library="PiB_capacitors" deviceset="0.1UF" device="_SMD-0805_35V-10%" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V"/>
@@ -5050,6 +5047,8 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="C36" library="PiB_capacitors" deviceset="0.1UF" device="_SMD-0402_50V-10%" package3d_urn="urn:adsk.eagle:package:2886515/1" value="0.1uF/50V"/>
 <part name="SUPPLY77" library="PiB_power_symbols" deviceset="5V" device=""/>
 <part name="GND4" library="MrSwirlyEyes" deviceset="NGND" device="" value="NGND"/>
+<part name="SUPPLY78" library="PiB_power_symbols" deviceset="VCC" device=""/>
+<part name="SUPPLY79" library="PiB_power_symbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5211,12 +5210,9 @@ Extra polarized capacitors to allow smooth voltage readings. </text>
 <instance part="SUPPLY63" gate="GND" x="-45.72" y="-38.1"/>
 <instance part="SUPPLY64" gate="GND" x="-38.1" y="-38.1"/>
 <instance part="SUPPLY65" gate="VCC" x="-114.3" y="12.7"/>
-<instance part="SUPPLY66" gate="VCC" x="-106.68" y="12.7"/>
 <instance part="C25" gate="G$1" x="-114.3" y="7.62"/>
-<instance part="C26" gate="G$1" x="-106.68" y="7.62"/>
 <instance part="SUPPLY67" gate="GND" x="-114.3" y="-2.54"/>
-<instance part="SUPPLY68" gate="GND" x="-106.68" y="-2.54"/>
-<instance part="C27" gate="G$1" x="-99.06" y="7.62"/>
+<instance part="C27" gate="G$1" x="-106.68" y="7.62"/>
 <instance part="C28" gate="G$1" x="-215.9" y="22.86"/>
 <instance part="C29" gate="G$1" x="-231.14" y="22.86"/>
 <instance part="SUPPLY69" gate="GND" x="-231.14" y="12.7"/>
@@ -5240,6 +5236,8 @@ Extra polarized capacitors to allow smooth voltage readings. </text>
 <instance part="C36" gate="G$1" x="104.14" y="-49.53"/>
 <instance part="SUPPLY77" gate="5V" x="104.14" y="-45.72"/>
 <instance part="GND4" gate="G$1" x="104.14" y="-58.42"/>
+<instance part="SUPPLY78" gate="VCC" x="-106.68" y="12.7"/>
+<instance part="SUPPLY79" gate="GND" x="-106.68" y="-2.54"/>
 </instances>
 <busses>
 </busses>
@@ -5356,8 +5354,8 @@ Extra polarized capacitors to allow smooth voltage readings. </text>
 <wire x1="-114.3" y1="12.7" x2="-114.3" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SUPPLY66" gate="VCC" pin="VCC"/>
-<pinref part="C26" gate="G$1" pin="1"/>
+<pinref part="SUPPLY78" gate="VCC" pin="VCC"/>
+<pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="-106.68" y1="12.7" x2="-106.68" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -5557,11 +5555,6 @@ Extra polarized capacitors to allow smooth voltage readings. </text>
 <wire x1="-38.1" y1="-33.02" x2="-38.1" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C26" gate="G$1" pin="2"/>
-<pinref part="SUPPLY68" gate="GND" pin="GND"/>
-<wire x1="-106.68" y1="2.54" x2="-106.68" y2="0" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C25" gate="G$1" pin="2"/>
 <pinref part="SUPPLY67" gate="GND" pin="GND"/>
 <wire x1="-114.3" y1="2.54" x2="-114.3" y2="0" width="0.1524" layer="91"/>
@@ -5580,6 +5573,11 @@ Extra polarized capacitors to allow smooth voltage readings. </text>
 <pinref part="C31" gate="G$1" pin="2"/>
 <pinref part="SUPPLY72" gate="GND" pin="GND"/>
 <wire x1="-246.38" y1="17.78" x2="-246.38" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C27" gate="G$1" pin="2"/>
+<pinref part="SUPPLY79" gate="GND" pin="GND"/>
+<wire x1="-106.68" y1="2.54" x2="-106.68" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PRESS-THUMB" class="0">

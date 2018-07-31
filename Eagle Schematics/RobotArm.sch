@@ -4902,31 +4902,31 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="SUPPLY9" library="PiB_power_symbols" deviceset="AVCC" device=""/>
 <part name="SUPPLY10" library="PiB_power_symbols" deviceset="AGND" device=""/>
 <part name="R6" library="PiB_resistors" deviceset="100Ω" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="100"/>
-<part name="SERVO6" library="PiB_motors" deviceset="SERVO" device="_SERVO-PN" package3d_urn="urn:adsk.eagle:package:3035518/2" value="HK15298B"/>
+<part name="SERVOTHUMB" library="PiB_motors" deviceset="SERVO" device="_SERVO-PN" package3d_urn="urn:adsk.eagle:package:3035518/2" value="HK15298B"/>
 <part name="SUPPLY21" library="PiB_power_symbols" deviceset="5V" device=""/>
 <part name="SUPPLY22" library="PiB_power_symbols" deviceset="NGND" device=""/>
 <part name="R7" library="PiB_resistors" deviceset="10KΩ" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="10K"/>
 <part name="SUPPLY19" library="PiB_power_symbols" deviceset="GND" device=""/>
 <part name="R8" library="PiB_resistors" deviceset="100Ω" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="100"/>
-<part name="SERVO1" library="PiB_motors" deviceset="SERVO" device="_SERVO-PN" package3d_urn="urn:adsk.eagle:package:3035518/2" value="HK15298B"/>
+<part name="SERVOINDEX" library="PiB_motors" deviceset="SERVO" device="_SERVO-PN" package3d_urn="urn:adsk.eagle:package:3035518/2" value="HK15298B"/>
 <part name="SUPPLY11" library="PiB_power_symbols" deviceset="5V" device=""/>
 <part name="SUPPLY12" library="PiB_power_symbols" deviceset="NGND" device=""/>
 <part name="R9" library="PiB_resistors" deviceset="10KΩ" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="10K"/>
 <part name="SUPPLY13" library="PiB_power_symbols" deviceset="GND" device=""/>
 <part name="R10" library="PiB_resistors" deviceset="100Ω" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="100"/>
-<part name="SERVO2" library="PiB_motors" deviceset="SERVO" device="_SERVO-PN" package3d_urn="urn:adsk.eagle:package:3035518/2" value="HK15298B"/>
+<part name="SERVOMIDDLE" library="PiB_motors" deviceset="SERVO" device="_SERVO-PN" package3d_urn="urn:adsk.eagle:package:3035518/2" value="HK15298B"/>
 <part name="SUPPLY14" library="PiB_power_symbols" deviceset="5V" device=""/>
 <part name="SUPPLY15" library="PiB_power_symbols" deviceset="NGND" device=""/>
 <part name="R11" library="PiB_resistors" deviceset="10KΩ" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="10K"/>
 <part name="SUPPLY16" library="PiB_power_symbols" deviceset="GND" device=""/>
 <part name="R12" library="PiB_resistors" deviceset="100Ω" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="100"/>
-<part name="SERVO3" library="PiB_motors" deviceset="SERVO" device="_SERVO-PN" package3d_urn="urn:adsk.eagle:package:3035518/2" value="HK15298B"/>
+<part name="SERVORING" library="PiB_motors" deviceset="SERVO" device="_SERVO-PN" package3d_urn="urn:adsk.eagle:package:3035518/2" value="HK15298B"/>
 <part name="SUPPLY17" library="PiB_power_symbols" deviceset="5V" device=""/>
 <part name="SUPPLY18" library="PiB_power_symbols" deviceset="NGND" device=""/>
 <part name="R13" library="PiB_resistors" deviceset="10KΩ" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="10K"/>
 <part name="SUPPLY20" library="PiB_power_symbols" deviceset="GND" device=""/>
 <part name="R14" library="PiB_resistors" deviceset="100Ω" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="100"/>
-<part name="SERVO4" library="PiB_motors" deviceset="SERVO" device="_SERVO-PN" package3d_urn="urn:adsk.eagle:package:3035518/2" value="HK15298B"/>
+<part name="SERVOPINKY" library="PiB_motors" deviceset="SERVO" device="_SERVO-PN" package3d_urn="urn:adsk.eagle:package:3035518/2" value="HK15298B"/>
 <part name="SUPPLY23" library="PiB_power_symbols" deviceset="5V" device=""/>
 <part name="SUPPLY24" library="PiB_power_symbols" deviceset="NGND" device=""/>
 <part name="R15" library="PiB_resistors" deviceset="10KΩ" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="10K"/>
@@ -5091,31 +5091,31 @@ Extra polarized capacitors to allow smooth voltage readings. </text>
 <instance part="SUPPLY9" gate="G$1" x="25.4" y="60.96"/>
 <instance part="SUPPLY10" gate="G$1" x="25.4" y="40.64"/>
 <instance part="R6" gate="G$1" x="76.2" y="58.42"/>
-<instance part="SERVO6" gate="G$1" x="58.42" y="58.42"/>
+<instance part="SERVOTHUMB" gate="G$1" x="58.42" y="58.42"/>
 <instance part="SUPPLY21" gate="5V" x="73.66" y="60.96"/>
 <instance part="SUPPLY22" gate="G$1" x="73.66" y="53.34"/>
 <instance part="R7" gate="G$1" x="81.28" y="50.8" rot="R90"/>
 <instance part="SUPPLY19" gate="GND" x="81.28" y="40.64"/>
 <instance part="R8" gate="G$1" x="76.2" y="33.02"/>
-<instance part="SERVO1" gate="G$1" x="58.42" y="33.02"/>
+<instance part="SERVOINDEX" gate="G$1" x="58.42" y="33.02"/>
 <instance part="SUPPLY11" gate="5V" x="73.66" y="35.56"/>
 <instance part="SUPPLY12" gate="G$1" x="73.66" y="27.94"/>
 <instance part="R9" gate="G$1" x="81.28" y="25.4" rot="R90"/>
 <instance part="SUPPLY13" gate="GND" x="81.28" y="15.24"/>
 <instance part="R10" gate="G$1" x="76.2" y="7.62"/>
-<instance part="SERVO2" gate="G$1" x="58.42" y="7.62"/>
+<instance part="SERVOMIDDLE" gate="G$1" x="58.42" y="7.62"/>
 <instance part="SUPPLY14" gate="5V" x="73.66" y="10.16"/>
 <instance part="SUPPLY15" gate="G$1" x="73.66" y="2.54"/>
 <instance part="R11" gate="G$1" x="81.28" y="0" rot="R90"/>
 <instance part="SUPPLY16" gate="GND" x="81.28" y="-10.16"/>
 <instance part="R12" gate="G$1" x="76.2" y="-17.78"/>
-<instance part="SERVO3" gate="G$1" x="58.42" y="-17.78"/>
+<instance part="SERVORING" gate="G$1" x="58.42" y="-17.78"/>
 <instance part="SUPPLY17" gate="5V" x="73.66" y="-15.24"/>
 <instance part="SUPPLY18" gate="G$1" x="73.66" y="-22.86"/>
 <instance part="R13" gate="G$1" x="81.28" y="-25.4" rot="R90"/>
 <instance part="SUPPLY20" gate="GND" x="81.28" y="-35.56"/>
 <instance part="R14" gate="G$1" x="76.2" y="-43.18"/>
-<instance part="SERVO4" gate="G$1" x="58.42" y="-43.18"/>
+<instance part="SERVOPINKY" gate="G$1" x="58.42" y="-43.18"/>
 <instance part="SUPPLY23" gate="5V" x="73.66" y="-40.64"/>
 <instance part="SUPPLY24" gate="G$1" x="73.66" y="-48.26"/>
 <instance part="R15" gate="G$1" x="81.28" y="-50.8" rot="R90"/>
@@ -5732,34 +5732,34 @@ Extra polarized capacitors to allow smooth voltage readings. </text>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="SERVO6" gate="G$1" pin="SIG"/>
+<pinref part="SERVOTHUMB" gate="G$1" pin="SIG"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="58.42" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
 <segment>
-<pinref part="SERVO6" gate="G$1" pin="VCC"/>
+<pinref part="SERVOTHUMB" gate="G$1" pin="VCC"/>
 <pinref part="SUPPLY21" gate="5V" pin="5V"/>
 <wire x1="66.04" y1="60.96" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SERVO1" gate="G$1" pin="VCC"/>
+<pinref part="SERVOINDEX" gate="G$1" pin="VCC"/>
 <pinref part="SUPPLY11" gate="5V" pin="5V"/>
 <wire x1="66.04" y1="35.56" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SERVO2" gate="G$1" pin="VCC"/>
+<pinref part="SERVOMIDDLE" gate="G$1" pin="VCC"/>
 <pinref part="SUPPLY14" gate="5V" pin="5V"/>
 <wire x1="66.04" y1="10.16" x2="73.66" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SERVO3" gate="G$1" pin="VCC"/>
+<pinref part="SERVORING" gate="G$1" pin="VCC"/>
 <pinref part="SUPPLY17" gate="5V" pin="5V"/>
 <wire x1="66.04" y1="-15.24" x2="73.66" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SERVO4" gate="G$1" pin="VCC"/>
+<pinref part="SERVOPINKY" gate="G$1" pin="VCC"/>
 <pinref part="SUPPLY23" gate="5V" pin="5V"/>
 <wire x1="66.04" y1="-40.64" x2="73.66" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
@@ -5812,27 +5812,27 @@ Extra polarized capacitors to allow smooth voltage readings. </text>
 <net name="NGND" class="0">
 <segment>
 <pinref part="SUPPLY22" gate="G$1" pin="NGND"/>
-<pinref part="SERVO6" gate="G$1" pin="GND"/>
+<pinref part="SERVOTHUMB" gate="G$1" pin="GND"/>
 <wire x1="73.66" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY12" gate="G$1" pin="NGND"/>
-<pinref part="SERVO1" gate="G$1" pin="GND"/>
+<pinref part="SERVOINDEX" gate="G$1" pin="GND"/>
 <wire x1="73.66" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY15" gate="G$1" pin="NGND"/>
-<pinref part="SERVO2" gate="G$1" pin="GND"/>
+<pinref part="SERVOMIDDLE" gate="G$1" pin="GND"/>
 <wire x1="73.66" y1="5.08" x2="66.04" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY18" gate="G$1" pin="NGND"/>
-<pinref part="SERVO3" gate="G$1" pin="GND"/>
+<pinref part="SERVORING" gate="G$1" pin="GND"/>
 <wire x1="73.66" y1="-20.32" x2="66.04" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY24" gate="G$1" pin="NGND"/>
-<pinref part="SERVO4" gate="G$1" pin="GND"/>
+<pinref part="SERVOPINKY" gate="G$1" pin="GND"/>
 <wire x1="73.66" y1="-45.72" x2="66.04" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -5893,28 +5893,28 @@ Extra polarized capacitors to allow smooth voltage readings. </text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="SERVO1" gate="G$1" pin="SIG"/>
+<pinref part="SERVOINDEX" gate="G$1" pin="SIG"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="SERVO2" gate="G$1" pin="SIG"/>
+<pinref part="SERVOMIDDLE" gate="G$1" pin="SIG"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="7.62" x2="66.04" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="SERVO3" gate="G$1" pin="SIG"/>
+<pinref part="SERVORING" gate="G$1" pin="SIG"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="-17.78" x2="66.04" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="SERVO4" gate="G$1" pin="SIG"/>
+<pinref part="SERVOPINKY" gate="G$1" pin="SIG"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="-43.18" x2="66.04" y2="-43.18" width="0.1524" layer="91"/>
 </segment>

@@ -1773,23 +1773,23 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MFR" value="Murata Electronics North America" x="51.054" y="32.004" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="GRM216R61E105KA12D" x="51.054" y="32.004" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C18" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="16.347" y="10.668" smashed="yes">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="16.347" y="10.668" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="16.347" y="10.668" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="16.347" y="10.668" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="587-3364-1-ND" x="16.347" y="10.668" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Taiyo Yuden" x="16.347" y="10.668" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="GMK212BJ104KGHT" x="16.347" y="10.668" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="16.347" y="12.3066" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center"/>
+<element name="C18" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="15.077" y="11.176" smashed="yes">
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="15.077" y="11.176" size="1.778" layer="27" display="off"/>
+<attribute name="DIST" value="Digikey" x="15.077" y="11.176" size="1.778" layer="27" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="15.077" y="11.176" size="1.778" layer="27" display="off"/>
+<attribute name="DISTPN" value="587-3364-1-ND" x="15.077" y="11.176" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Taiyo Yuden" x="15.077" y="11.176" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GMK212BJ104KGHT" x="15.077" y="11.176" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="15.077" y="12.8146" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center"/>
 </element>
-<element name="C19" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="30.643" y="11.176" smashed="yes" rot="R180">
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="30.643" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIST" value="Digikey" x="30.643" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="30.643" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTPN" value="587-3364-1-ND" x="30.643" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Taiyo Yuden" x="30.643" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="GMK212BJ104KGHT" x="30.643" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="31.151" y="10.0454" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center"/>
+<element name="C19" library="PiB_capacitors" package="CAPC2012X95_SMD-0805" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V" x="29.373" y="11.176" smashed="yes" rot="R180">
+<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=GMK212BJ104KGHT&amp;fileName=GMK212BJ104KGHT_SS&amp;mode=specSheetDownload" x="29.373" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIST" value="Digikey" x="29.373" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-3364-1-ND" x="29.373" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTPN" value="587-3364-1-ND" x="29.373" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Taiyo Yuden" x="29.373" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="GMK212BJ104KGHT" x="29.373" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="29.881" y="10.0454" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center"/>
 </element>
 <element name="C2" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="1uF/25V" x="27.94" y="36.322" rot="R180">
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R61E105KA12-01.pdf" x="27.94" y="36.322" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1807,13 +1807,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MFR" value="Taiyo Yuden" x="24.384" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="TMK212BBJ106KG-T" x="24.384" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C21" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="10uF/25V" x="35.56" y="11.176" rot="R180">
-<attribute name="DATASHEET" value="https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" x="35.56" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIST" value="Digikey" x="35.56" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-2985-1-ND" x="35.56" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTPN" value="587-2985-1-ND" x="35.56" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Taiyo Yuden" x="35.56" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="TMK212BBJ106KG-T" x="35.56" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C21" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="10uF/25V" x="33.782" y="11.176" rot="R180">
+<attribute name="DATASHEET" value="https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" x="33.782" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIST" value="Digikey" x="33.782" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-2985-1-ND" x="33.782" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTPN" value="587-2985-1-ND" x="33.782" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Taiyo Yuden" x="33.782" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="TMK212BBJ106KG-T" x="33.782" y="11.176" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C3" library="PiB_capacitors" package="CAPC2012X95_SMD-0805@1" package3d_urn="urn:adsk.eagle:package:2940050@1/1" value="1uF/25V" x="36.83" y="44.704" rot="R180">
 <attribute name="DATASHEET" value="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R61E105KA12-01.pdf" x="36.83" y="44.704" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1994,21 +1994,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MFR" value="Taiyo Yuden" x="15.494" y="28.956" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CB2012T100KR" x="15.494" y="28.956" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LED1" library="PiB_leds" package="LEDC2012X120_LED-0805" package3d_urn="urn:adsk.eagle:package:2966314/3" value="GREEN" x="38.608" y="26.162" rot="R270">
-<attribute name="DATASHEET" value="http://optoelectronics.liteon.com/upload/download/DS22-2000-073/LTST-C170KGKT.pdf" x="38.608" y="26.162" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIST" value="Digikey" x="38.608" y="26.162" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=160-1414-1-ND" x="38.608" y="26.162" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DISTPN" value="160-1414-1-ND" x="38.608" y="26.162" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Lite-On Inc." x="38.608" y="26.162" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="LTST-C170KGKT" x="38.608" y="26.162" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="LED1" library="PiB_leds" package="LEDC2012X120_LED-0805" package3d_urn="urn:adsk.eagle:package:2966314/3" value="GREEN" x="37.084" y="24.892" rot="R270">
+<attribute name="DATASHEET" value="http://optoelectronics.liteon.com/upload/download/DS22-2000-073/LTST-C170KGKT.pdf" x="37.084" y="24.892" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIST" value="Digikey" x="37.084" y="24.892" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=160-1414-1-ND" x="37.084" y="24.892" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTPN" value="160-1414-1-ND" x="37.084" y="24.892" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Lite-On Inc." x="37.084" y="24.892" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="LTST-C170KGKT" x="37.084" y="24.892" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="LED2" library="PiB_leds" package="LEDC2012X120_LED-0805" package3d_urn="urn:adsk.eagle:package:2966314/3" value="GREEN" x="35.306" y="26.162" rot="R90">
-<attribute name="DATASHEET" value="http://optoelectronics.liteon.com/upload/download/DS22-2000-073/LTST-C170KGKT.pdf" x="35.306" y="26.162" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="35.306" y="26.162" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=160-1414-1-ND" x="35.306" y="26.162" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="160-1414-1-ND" x="35.306" y="26.162" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Lite-On Inc." x="35.306" y="26.162" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="LTST-C170KGKT" x="35.306" y="26.162" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="LED2" library="PiB_leds" package="LEDC2012X120_LED-0805" package3d_urn="urn:adsk.eagle:package:2966314/3" value="GREEN" x="33.02" y="24.892" rot="R90">
+<attribute name="DATASHEET" value="http://optoelectronics.liteon.com/upload/download/DS22-2000-073/LTST-C170KGKT.pdf" x="33.02" y="24.892" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="33.02" y="24.892" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=160-1414-1-ND" x="33.02" y="24.892" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="160-1414-1-ND" x="33.02" y="24.892" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Lite-On Inc." x="33.02" y="24.892" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="LTST-C170KGKT" x="33.02" y="24.892" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="LED3" library="PiB_leds" package="LEDC2012X120_LED-0805" package3d_urn="urn:adsk.eagle:package:2966314/3" value="BLUE" x="28.194" y="26.162" rot="R90">
 <attribute name="DATASHEET" value="http://optoelectronics.liteon.com/upload/download/DS-22-99-0226/LTST-C170TBKT.pdf" x="28.194" y="26.162" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2049,7 +2049,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="ATMEGA128RFA1-ZU " x="41.656" y="34.798" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TESTED" value="YES" x="41.656" y="34.798" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="NET_BRIDGE1" library="PiB_power_symbols" package="2PT_GND_TIE" value="2PT_GND_TIE" x="24.638" y="21.082"/>
+<element name="NET_BRIDGE1" library="PiB_power_symbols" package="2PT_GND_TIE" value="2PT_GND_TIE" x="18.796" y="10.922" rot="R90"/>
 <element name="NET_BRIDGE2" library="PiB_power_symbols" package="2PT_GND_TIE" value="2PT_GND_TIE" x="50.546" y="26.924"/>
 <element name="R1" library="PiB_resistors" package="RESC2012X60_SMD-0805" package3d_urn="urn:adsk.eagle:package:3034995/1" value="2.2K" x="50.8" y="47.498" rot="R180">
 <attribute name="DATASHEET" value="http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf" x="50.8" y="47.498" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2322,13 +2322,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MFR" value="Abracon LLC" x="50.546" y="43.942" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="ABM3B-16.000MHZ-B2-T" x="50.546" y="43.942" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C22" library="PiB_capacitors" package="_AE_PTH_DIA8-LS3.5-H21.50" package3d_urn="urn:adsk.eagle:package:3036236/2" value="1000uF/16V" x="30.988" y="17.78" rot="R90">
-<attribute name="DATASHEET" value="http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&amp;j=p&amp;pdfname=kzm" x="30.988" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIST" value="Digikey" x="30.988" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=565-3567-ND" x="30.988" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DISTPN" value="565-3567-ND" x="30.988" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="United Chemi-Con" x="30.988" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="EKZM160ELL102MH20D" x="30.988" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C22" library="PiB_capacitors" package="_AE_PTH_DIA8-LS3.5-H21.50" package3d_urn="urn:adsk.eagle:package:3036236/2" value="1000uF/16V" x="31.75" y="17.78" rot="R90">
+<attribute name="DATASHEET" value="http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&amp;j=p&amp;pdfname=kzm" x="31.75" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="31.75" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=565-3567-ND" x="31.75" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="565-3567-ND" x="31.75" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="United Chemi-Con" x="31.75" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="EKZM160ELL102MH20D" x="31.75" y="17.78" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C23" library="PiB_capacitors" package="_AE_PTH_DIA10-LS5-H22" value="470uF/50V" x="9.398" y="35.854" rot="R180">
 <attribute name="DATASHEET" value="https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Capacitors%20PDFs/ECA-xxM%20Spec.pdf" x="9.398" y="35.854" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2408,41 +2408,41 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="CGA2B3X5R1H104K050BB" x="45.466" y="151.13" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="48.006" y="8.9051" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center"/>
 </element>
-<element name="C33" library="PiB_capacitors" package="CAPC1005X55_SMD-0402" package3d_urn="urn:adsk.eagle:package:2886515/1" value="0.1uF/50V" x="39.878" y="10.16" smashed="yes" rot="R180">
-<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGA2B3X5R1H104K050BB.pdf" x="39.878" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIST" value="Digikey" x="39.878" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-12213-1-ND" x="39.878" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTPN" value="445-12213-1-ND" x="39.878" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="TDK Corporation" x="39.878" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CGA2B3X5R1H104K050BB" x="39.878" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="39.878" y="8.9051" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center"/>
+<element name="C33" library="PiB_capacitors" package="CAPC1005X55_SMD-0402" package3d_urn="urn:adsk.eagle:package:2886515/1" value="0.1uF/50V" x="39.116" y="11.176" smashed="yes" rot="R270">
+<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGA2B3X5R1H104K050BB.pdf" x="39.116" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIST" value="Digikey" x="39.116" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-12213-1-ND" x="39.116" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTPN" value="445-12213-1-ND" x="39.116" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="TDK Corporation" x="39.116" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CGA2B3X5R1H104K050BB" x="39.116" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="40.3709" y="11.176" size="0.6096" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
 </element>
-<element name="C34" library="PiB_capacitors" package="CAPC1005X55_SMD-0402" package3d_urn="urn:adsk.eagle:package:2886515/1" value="0.1uF/50V" x="27.432" y="11.176" smashed="yes" rot="R270">
-<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGA2B3X5R1H104K050BB.pdf" x="27.432" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIST" value="Digikey" x="27.432" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-12213-1-ND" x="27.432" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DISTPN" value="445-12213-1-ND" x="27.432" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="TDK Corporation" x="27.432" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CGA2B3X5R1H104K050BB" x="27.432" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="28.6869" y="11.176" size="0.6096" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
+<element name="C34" library="PiB_capacitors" package="CAPC1005X55_SMD-0402" package3d_urn="urn:adsk.eagle:package:2886515/1" value="0.1uF/50V" x="37.338" y="11.176" smashed="yes" rot="R270">
+<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGA2B3X5R1H104K050BB.pdf" x="37.338" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIST" value="Digikey" x="37.338" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-12213-1-ND" x="37.338" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTPN" value="445-12213-1-ND" x="37.338" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="TDK Corporation" x="37.338" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CGA2B3X5R1H104K050BB" x="37.338" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="38.5929" y="11.176" size="0.6096" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
 </element>
-<element name="C35" library="PiB_capacitors" package="CAPC1005X55_SMD-0402" package3d_urn="urn:adsk.eagle:package:2886515/1" value="0.1uF/50V" x="21.082" y="10.668" smashed="yes">
-<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGA2B3X5R1H104K050BB.pdf" x="21.082" y="10.668" size="1.778" layer="27" display="off"/>
-<attribute name="DIST" value="Digikey" x="21.082" y="10.668" size="1.778" layer="27" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-12213-1-ND" x="21.082" y="10.668" size="1.778" layer="27" display="off"/>
-<attribute name="DISTPN" value="445-12213-1-ND" x="21.082" y="10.668" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="TDK Corporation" x="21.082" y="10.668" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CGA2B3X5R1H104K050BB" x="21.082" y="10.668" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="21.082" y="11.9229" size="0.6096" layer="25" font="vector" ratio="10" align="bottom-center"/>
+<element name="C35" library="PiB_capacitors" package="CAPC1005X55_SMD-0402" package3d_urn="urn:adsk.eagle:package:2886515/1" value="0.1uF/50V" x="21.59" y="10.922" smashed="yes" rot="R90">
+<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGA2B3X5R1H104K050BB.pdf" x="21.59" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIST" value="Digikey" x="21.59" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-12213-1-ND" x="21.59" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTPN" value="445-12213-1-ND" x="21.59" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="TDK Corporation" x="21.59" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CGA2B3X5R1H104K050BB" x="21.59" y="10.922" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="20.3351" y="10.922" size="0.6096" layer="25" font="vector" ratio="10" rot="R90" align="bottom-center"/>
 </element>
-<element name="C36" library="PiB_capacitors" package="CAPC1005X55_SMD-0402" package3d_urn="urn:adsk.eagle:package:2886515/1" value="0.1uF/50V" x="11.938" y="10.668" smashed="yes" rot="R180">
-<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGA2B3X5R1H104K050BB.pdf" x="11.938" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIST" value="Digikey" x="11.938" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-12213-1-ND" x="11.938" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DISTPN" value="445-12213-1-ND" x="11.938" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="TDK Corporation" x="11.938" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CGA2B3X5R1H104K050BB" x="11.938" y="10.668" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="11.938" y="9.4131" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="bottom-center"/>
+<element name="C36" library="PiB_capacitors" package="CAPC1005X55_SMD-0402" package3d_urn="urn:adsk.eagle:package:2886515/1" value="0.1uF/50V" x="11.684" y="11.176" smashed="yes" rot="R270">
+<attribute name="DATASHEET" value="https://product.tdk.com/info/en/documents/chara_sheet/CGA2B3X5R1H104K050BB.pdf" x="11.684" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIST" value="Digikey" x="11.684" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=445-12213-1-ND" x="11.684" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTPN" value="445-12213-1-ND" x="11.684" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="TDK Corporation" x="11.684" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CGA2B3X5R1H104K050BB" x="11.684" y="11.176" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="12.9389" y="11.176" size="0.6096" layer="25" font="vector" ratio="10" rot="R270" align="bottom-center"/>
 </element>
 </elements>
 <signals>
@@ -2570,8 +2570,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="39.116" y="24.13"/>
 <vertex x="39.116" y="22.86"/>
 <vertex x="22.606" y="22.86"/>
-<vertex x="22.606" y="12.446"/>
-<vertex x="9.652" y="12.446"/>
+<vertex x="22.606" y="13.208"/>
+<vertex x="9.652" y="13.208"/>
 <vertex x="9.652" y="5.842"/>
 <vertex x="56.388" y="5.842"/>
 <vertex x="56.388" y="0"/>
@@ -2616,10 +2616,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="36.775" y1="35.048" x2="36.775" y2="37.048" width="0" layer="19" extent="1-1"/>
 <wire x1="37.906" y1="29.917" x2="36.775" y2="35.048" width="0" layer="19" extent="1-1"/>
 <wire x1="38.906" y1="29.917" x2="37.906" y2="29.917" width="0" layer="19" extent="1-1"/>
-<wire x1="35.306" y1="27.1216" x2="37.906" y2="29.917" width="0" layer="19" extent="1-1"/>
-<wire x1="33.528" y1="29.972" x2="35.306" y2="27.1216" width="0" layer="19" extent="1-1"/>
+<wire x1="33.02" y1="25.8516" x2="37.906" y2="29.917" width="0" layer="19" extent="1-1"/>
+<wire x1="33.528" y1="29.972" x2="33.02" y2="25.8516" width="0" layer="19" extent="1-1"/>
 <wire x1="31.75" y1="32.766" x2="33.528" y2="29.972" width="0" layer="19" extent="1-1"/>
-<wire x1="38.608" y1="25.2024" x2="35.306" y2="27.1216" width="0" layer="19" extent="1-1"/>
+<wire x1="37.084" y1="23.9324" x2="33.02" y2="25.8516" width="0" layer="19" extent="1-1"/>
 <wire x1="43.906" y1="29.917" x2="38.906" y2="29.917" width="0" layer="19" extent="1-1"/>
 <wire x1="46.537" y1="34.048" x2="43.906" y2="29.917" width="0" layer="19" extent="1-1"/>
 <wire x1="46.482" y1="25.162" x2="43.906" y2="29.917" width="0" layer="19" extent="1-1"/>
@@ -2630,7 +2630,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="27.015" y1="36.322" x2="21.3566" y2="35.306" width="0" layer="19" extent="1-1"/>
 <wire x1="24.3174" y1="26.543" x2="21.427" y2="32.004" width="0" layer="19" extent="1-1"/>
 <wire x1="24.3174" y1="25.273" x2="24.3174" y2="26.543" width="0" layer="19" extent="1-1"/>
-<wire x1="25.273" y1="21.082" x2="24.3174" y2="25.273" width="0" layer="19" extent="1-1"/>
+<wire x1="18.796" y1="11.557" x2="24.3174" y2="25.273" width="0" layer="19" extent="1-1"/>
 <wire x1="11.684" y1="3.0686" x2="5.334" y2="2.666" width="0" layer="19" extent="1-1"/>
 <wire x1="20.32" y1="3.0686" x2="11.684" y2="3.0686" width="0" layer="19" extent="1-1"/>
 <wire x1="28.956" y1="3.0686" x2="20.32" y2="3.0686" width="0" layer="19" extent="1-1"/>
@@ -2828,10 +2828,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="23.114" y1="3.048" x2="25.3794" y2="3.048" width="0.1524" layer="1"/>
 <wire x1="25.3794" y1="3.048" x2="25.4" y2="3.0686" width="0.1524" layer="1"/>
 <wire x1="25.4" y1="3.0686" x2="27.178" y2="4.8466" width="0.1524" layer="1"/>
-<wire x1="27.178" y1="4.8466" x2="27.178" y2="9.398" width="0.1524" layer="1"/>
-<wire x1="27.178" y1="9.398" x2="26.416" y2="10.16" width="0.1524" layer="1"/>
-<wire x1="26.416" y1="10.16" x2="26.416" y2="11.43" width="0.1524" layer="1"/>
-<wire x1="26.416" y1="11.43" x2="41.906" y2="29.917" width="0" layer="19" extent="1-1"/>
+<wire x1="27.178" y1="4.8466" x2="27.178" y2="20.066" width="0.1524" layer="1"/>
+<wire x1="27.178" y1="20.066" x2="31.242" y2="24.13" width="0.1524" layer="1"/>
+<wire x1="31.242" y1="24.13" x2="31.242" y2="26.67" width="0.1524" layer="1"/>
+<wire x1="31.242" y1="26.67" x2="41.906" y2="29.917" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SERVO-PINKY">
 <contactref element="MCU1" pad="40"/>
@@ -2868,19 +2868,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C35" pad="1"/>
 <contactref element="C36" pad="1"/>
 <wire x1="48.26" y1="7.874" x2="48.4635" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="40.3355" y1="10.16" x2="48.4635" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="39.878" y1="7.874" x2="40.3355" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="36.485" y1="11.176" x2="40.3355" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="38.1393" y1="15.57" x2="36.485" y2="11.176" width="0" layer="19" extent="1-1"/>
-<wire x1="31.568" y1="11.176" x2="36.485" y2="11.176" width="0" layer="19" extent="1-1"/>
-<wire x1="31.496" y1="7.874" x2="31.568" y2="11.176" width="0" layer="19" extent="1-1"/>
-<wire x1="27.432" y1="11.6335" x2="31.568" y2="11.176" width="0" layer="19" extent="1-1"/>
-<wire x1="24.638" y1="10.9566" x2="27.432" y2="11.6335" width="0" layer="19" extent="1-1"/>
+<wire x1="39.116" y1="11.6335" x2="48.4635" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="39.878" y1="7.874" x2="39.116" y2="11.6335" width="0" layer="19" extent="1-1"/>
+<wire x1="34.707" y1="11.176" x2="39.116" y2="11.6335" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1393" y1="15.57" x2="34.707" y2="11.176" width="0" layer="19" extent="1-1"/>
+<wire x1="30.298" y1="11.176" x2="34.707" y2="11.176" width="0" layer="19" extent="1-1"/>
+<wire x1="31.496" y1="7.874" x2="30.298" y2="11.176" width="0" layer="19" extent="1-1"/>
+<wire x1="37.338" y1="11.6335" x2="30.298" y2="11.176" width="0" layer="19" extent="1-1"/>
+<wire x1="24.638" y1="10.9566" x2="37.338" y2="11.6335" width="0" layer="19" extent="1-1"/>
 <wire x1="22.86" y1="7.874" x2="24.638" y2="10.9566" width="0" layer="19" extent="1-1"/>
-<wire x1="20.6245" y1="10.668" x2="22.86" y2="7.874" width="0" layer="19" extent="1-1"/>
-<wire x1="14.478" y1="7.874" x2="20.6245" y2="10.668" width="0" layer="19" extent="1-1"/>
-<wire x1="12.3955" y1="10.668" x2="14.478" y2="7.874" width="0" layer="19" extent="1-1"/>
-<wire x1="30.988" y1="16.03" x2="38.1393" y2="15.57" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="10.4645" x2="22.86" y2="7.874" width="0" layer="19" extent="1-1"/>
+<wire x1="14.478" y1="7.874" x2="21.59" y2="10.4645" width="0" layer="19" extent="1-1"/>
+<wire x1="11.684" y1="11.6335" x2="14.478" y2="7.874" width="0" layer="19" extent="1-1"/>
+<wire x1="31.75" y1="16.03" x2="38.1393" y2="15.57" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NGND">
 <contactref element="SERVOTHUMB" pad="GND"/>
@@ -2902,32 +2902,31 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C35" pad="2"/>
 <contactref element="C36" pad="2"/>
 <polygon width="0.1524" layer="16">
-<vertex x="12.7" y="11.938"/>
-<vertex x="10.922" y="11.938"/>
-<vertex x="10.414" y="11.938"/>
+<vertex x="23.114" y="12.7"/>
+<vertex x="10.414" y="12.7"/>
 <vertex x="10.414" y="6.350003125"/>
 <vertex x="68.58" y="6.35"/>
 <vertex x="68.58" y="23.368"/>
 <vertex x="39.624" y="23.622"/>
 <vertex x="39.624" y="22.352"/>
-<vertex x="35.814" y="22.352"/>
-<vertex x="23.368" y="22.352"/>
-<vertex x="23.114" y="22.098"/>
-<vertex x="23.114" y="12.192"/>
-<vertex x="22.86" y="11.938"/>
+<vertex x="29.972" y="22.352"/>
+<vertex x="29.718" y="22.352"/>
+<vertex x="27.432" y="20.066"/>
+<vertex x="23.368" y="20.066"/>
+<vertex x="23.114" y="19.812"/>
 </polygon>
 <wire x1="47.5485" y1="10.16" x2="46.9848" y2="17.272" width="0" layer="19" extent="1-1"/>
 <wire x1="45.72" y1="7.874" x2="47.5485" y2="10.16" width="0" layer="19" extent="1-1"/>
-<wire x1="11.4805" y1="10.668" x2="11.938" y2="7.874" width="0" layer="19" extent="1-1"/>
-<wire x1="21.5395" y1="10.668" x2="20.32" y2="7.874" width="0" layer="19" extent="1-1"/>
-<wire x1="39.4205" y1="10.16" x2="37.338" y2="7.874" width="0" layer="19" extent="1-1"/>
-<wire x1="27.432" y1="10.7185" x2="28.956" y2="7.874" width="0" layer="19" extent="1-1"/>
-<wire x1="29.718" y1="11.176" x2="27.432" y2="10.7185" width="0" layer="19" extent="1-1"/>
-<wire x1="17.272" y1="10.668" x2="20.32" y2="7.874" width="0" layer="19" extent="1-1"/>
-<wire x1="34.635" y1="11.176" x2="37.338" y2="7.874" width="0" layer="19" extent="1-1"/>
-<wire x1="38.1393" y1="17.272" x2="34.635" y2="11.176" width="0" layer="19" extent="1-1"/>
-<wire x1="24.384" y1="18.705" x2="30.988" y2="19.53" width="0" layer="19" extent="1-1"/>
-<wire x1="24.003" y1="21.082" x2="24.384" y2="18.705" width="0" layer="19" extent="1-1"/>
+<wire x1="11.684" y1="10.7185" x2="11.938" y2="7.874" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="11.3795" x2="20.32" y2="7.874" width="0" layer="19" extent="1-1"/>
+<wire x1="39.116" y1="10.7185" x2="37.338" y2="7.874" width="0" layer="19" extent="1-1"/>
+<wire x1="37.338" y1="10.7185" x2="28.956" y2="7.874" width="0" layer="19" extent="1-1"/>
+<wire x1="28.448" y1="11.176" x2="37.338" y2="10.7185" width="0" layer="19" extent="1-1"/>
+<wire x1="16.002" y1="11.176" x2="20.32" y2="7.874" width="0" layer="19" extent="1-1"/>
+<wire x1="32.857" y1="11.176" x2="37.338" y2="7.874" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1393" y1="17.272" x2="32.857" y2="11.176" width="0" layer="19" extent="1-1"/>
+<wire x1="24.384" y1="18.705" x2="31.75" y2="19.53" width="0" layer="19" extent="1-1"/>
+<wire x1="18.796" y1="10.287" x2="24.384" y2="18.705" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
 <contactref element="SERVOINDEX" pad="SIG"/>
@@ -3155,13 +3154,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$2">
 <contactref element="LED1" pad="A"/>
 <contactref element="R16" pad="1"/>
-<wire x1="41.402" y1="25.1666" x2="38.608" y2="27.1216" width="0" layer="19" extent="1-1"/>
+<wire x1="41.402" y1="25.1666" x2="37.084" y2="25.8516" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="LED2" pad="A"/>
 <contactref element="R17" pad="1"/>
 <wire x1="43.942" y1="25.1666" x2="43.942" y2="25.0126" width="0.1524" layer="1"/>
-<wire x1="35.306" y1="25.2024" x2="43.942" y2="25.1666" width="0" layer="19" extent="1-1"/>
+<wire x1="33.02" y1="23.9324" x2="43.942" y2="25.1666" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="MCU1" pad="62"/>
@@ -3358,7 +3357,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="16.673" y1="25.146" x2="18.614" y2="32.004" width="0" layer="19" extent="1-1"/>
 <wire x1="14.1894" y1="21.844" x2="16.673" y2="25.146" width="0" layer="19" extent="1-1"/>
 <wire x1="11.812" y1="16.51" x2="14.1894" y2="21.844" width="0" layer="19" extent="1-1"/>
-<wire x1="15.422" y1="10.668" x2="11.812" y2="16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="14.152" y1="11.176" x2="11.812" y2="16.51" width="0" layer="19" extent="1-1"/>
 <wire x1="24.384" y1="16.855" x2="28.194" y2="25.2024" width="0" layer="19" extent="1-1"/>
 <wire x1="24.638" y1="13.9354" x2="24.384" y2="16.855" width="0" layer="19" extent="1-1"/>
 <wire x1="5.171" y1="28.956" x2="11.898" y2="35.854" width="0" layer="19" extent="1-1"/>

@@ -3,7 +3,7 @@
 <eagle version="9.1.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -260,7 +260,7 @@
 <smd name="62" x="-2.75" y="4.6447" dx="1.2" dy="0.264" layer="1" roundness="100" rot="R90"/>
 <smd name="63" x="-3.25" y="4.6447" dx="1.2" dy="0.264" layer="1" roundness="100" rot="R90"/>
 <smd name="64" x="-3.75" y="4.6447" dx="1.2" dy="0.264" layer="1" roundness="100" rot="R90"/>
-<smd name="EP" x="0" y="0" dx="5.65" dy="4.75" layer="1" roundness="5" stop="no" thermals="no"/>
+<smd name="EP" x="0" y="0" dx="5.65" dy="4.75" layer="1" roundness="5" thermals="no"/>
 <text x="0" y="5.7" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-5.7" size="0.5" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <pad name="P$1" x="-1.5" y="1.5" drill="0.254" stop="no" thermals="no"/>
@@ -4871,10 +4871,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="SUPPLY42" library="PiB_power_symbols" deviceset="GND" device=""/>
 <part name="C10" library="PiB_capacitors" deviceset="22PF" device="_SMD-805_250V-5%" value="22PF/250V"/>
 <part name="C11" library="PiB_capacitors" deviceset="0.75PF" device="_SMD-805_100V-33%" value="0.75PF/100V"/>
-<part name="SUPPLY43" library="PiB_power_symbols" deviceset="GND" device=""/>
-<part name="SUPPLY44" library="PiB_power_symbols" deviceset="GND" device=""/>
 <part name="BALUN1" library="PiB_radio_frequency" deviceset="BALUN" device="_SMD-0805_UNBAL/BAL-50/100" package3d_urn="urn:adsk.eagle:package:2933573/1" value="50/100"/>
-<part name="SUPPLY45" library="PiB_power_symbols" deviceset="GND" device=""/>
 <part name="ANT1" library="PiB_radio_frequency" deviceset="ANTENNA" device="_SMD_CHP-2.45GHZ-0.5DBI-3W" package3d_urn="urn:adsk.eagle:package:2933495/1" value="2.45GHz"/>
 <part name="SUPPLY46" library="PiB_power_symbols" deviceset="GND" device=""/>
 <part name="SUPPLY47" library="PiB_power_symbols" deviceset="AGND" device=""/>
@@ -4956,6 +4953,10 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="SUPPLY6" library="PiB_power_symbols" deviceset="AGND" device=""/>
 <part name="SUPPLY8" library="PiB_power_symbols" deviceset="AGND" device=""/>
 <part name="SUPPLY10" library="PiB_power_symbols" deviceset="AGND" device=""/>
+<part name="SUPPLY26" library="PiB_power_symbols" deviceset="AGND" device=""/>
+<part name="SUPPLY29" library="PiB_power_symbols" deviceset="AGND" device=""/>
+<part name="SUPPLY43" library="PiB_power_symbols" deviceset="AGND" device=""/>
+<part name="SUPPLY44" library="PiB_power_symbols" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5084,10 +5085,7 @@ Extra polarized capacitors to allow smooth voltage readings. </text>
 <instance part="SUPPLY42" gate="GND" x="-264.16" y="10.16"/>
 <instance part="C10" gate="G$1" x="-254" y="-15.24" rot="R270"/>
 <instance part="C11" gate="G$1" x="-281.94" y="-15.24" rot="R180"/>
-<instance part="SUPPLY43" gate="GND" x="-281.94" y="-27.94"/>
-<instance part="SUPPLY44" gate="GND" x="-269.24" y="-27.94"/>
 <instance part="BALUN1" gate="G$1" x="-266.7" y="-15.24"/>
-<instance part="SUPPLY45" gate="GND" x="-251.46" y="-20.32"/>
 <instance part="ANT1" gate="G$1" x="-281.94" y="2.54"/>
 <instance part="SUPPLY46" gate="GND" x="-254" y="-50.8"/>
 <instance part="SUPPLY47" gate="G$1" x="-248.92" y="-50.8"/>
@@ -5169,6 +5167,10 @@ Extra polarized capacitors to allow smooth voltage readings. </text>
 <instance part="SUPPLY6" gate="G$1" x="-20.32" y="40.64"/>
 <instance part="SUPPLY8" gate="G$1" x="2.54" y="40.64"/>
 <instance part="SUPPLY10" gate="G$1" x="22.86" y="40.64"/>
+<instance part="SUPPLY26" gate="G$1" x="-269.24" y="-27.94"/>
+<instance part="SUPPLY29" gate="G$1" x="-281.94" y="-27.94"/>
+<instance part="SUPPLY43" gate="G$1" x="-251.46" y="-20.32"/>
+<instance part="SUPPLY44" gate="G$1" x="-254" y="-35.56"/>
 </instances>
 <busses>
 </busses>
@@ -5354,28 +5356,6 @@ Extra polarized capacitors to allow smooth voltage readings. </text>
 <wire x1="-261.62" y1="12.7" x2="-264.16" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SUPPLY45" gate="GND" pin="GND"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="-251.46" y1="-17.78" x2="-251.46" y2="-15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="BALUN1" gate="G$1" pin="GND@5"/>
-<pinref part="SUPPLY44" gate="GND" pin="GND"/>
-<wire x1="-269.24" y1="-22.86" x2="-269.24" y2="-25.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C11" gate="G$1" pin="1"/>
-<pinref part="SUPPLY43" gate="GND" pin="GND"/>
-<wire x1="-281.94" y1="-17.78" x2="-281.94" y2="-25.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="MCU1" gate="G$1" pin="AVSS_RFP"/>
-<wire x1="-246.38" y1="-30.48" x2="-254" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-254" y1="-30.48" x2="-254" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="MCU1" gate="G$1" pin="AVSS_RFN"/>
-<wire x1="-254" y1="-33.02" x2="-254" y2="-38.1" width="0.1524" layer="91"/>
-<wire x1="-246.38" y1="-33.02" x2="-254" y2="-33.02" width="0.1524" layer="91"/>
-<junction x="-254" y="-33.02"/>
 <pinref part="MCU1" gate="G$1" pin="TST"/>
 <wire x1="-246.38" y1="-40.64" x2="-254" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="-254" y1="-40.64" x2="-254" y2="-38.1" width="0.1524" layer="91"/>
@@ -5384,7 +5364,6 @@ Extra polarized capacitors to allow smooth voltage readings. </text>
 <pinref part="MCU1" gate="G$1" pin="CLKI"/>
 <wire x1="-254" y1="-45.72" x2="-254" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="-246.38" y1="-38.1" x2="-254" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="-254" y="-38.1"/>
 <pinref part="SUPPLY46" gate="GND" pin="GND"/>
 <pinref part="MCU1" gate="G$1" pin="DVSS"/>
 <wire x1="-246.38" y1="-45.72" x2="-254" y2="-45.72" width="0.1524" layer="91"/>
@@ -6179,6 +6158,30 @@ Extra polarized capacitors to allow smooth voltage readings. </text>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="45.72" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="BALUN1" gate="G$1" pin="GND@5"/>
+<wire x1="-269.24" y1="-22.86" x2="-269.24" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="SUPPLY26" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="-281.94" y1="-17.78" x2="-281.94" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="SUPPLY29" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="-251.46" y1="-17.78" x2="-251.46" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="SUPPLY43" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="MCU1" gate="G$1" pin="AVSS_RFN"/>
+<wire x1="-246.38" y1="-33.02" x2="-254" y2="-33.02" width="0.1524" layer="91"/>
+<wire x1="-254" y1="-30.48" x2="-254" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="MCU1" gate="G$1" pin="AVSS_RFP"/>
+<wire x1="-246.38" y1="-30.48" x2="-254" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY44" gate="G$1" pin="AGND"/>
+<junction x="-254" y="-33.02"/>
 </segment>
 </net>
 <net name="N$8" class="0">

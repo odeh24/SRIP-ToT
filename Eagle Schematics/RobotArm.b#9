@@ -1991,7 +1991,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="23.0378" y1="28.8932" x2="24.384" y2="28.8932" width="0.254" layer="1"/>
 <wire x1="24.384" y1="28.8932" x2="27.1307" y2="28.8932" width="0.254" layer="1"/>
 <wire x1="20.6248" y1="29.9466" x2="21.6782" y2="28.8932" width="0.254" layer="1"/>
-<wire x1="17.4704" y1="36.957" x2="17.5302" y2="37.0168" width="0.508" layer="1"/>
 <wire x1="42.5662" y1="32.8676" x2="43.7896" y2="32.8676" width="0.508" layer="1"/>
 <wire x1="43.7896" y1="32.8676" x2="45.0236" y2="32.8676" width="0.508" layer="1"/>
 <wire x1="45.0766625" y1="32.8676" x2="45.0236" y2="32.8676" width="0.508" layer="1"/>
@@ -2015,8 +2014,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="39.116" y="26.8118" extent="1-16" drill="0.254"/>
 <wire x1="38.5318" y1="27.396" x2="38.5318" y2="28.9306" width="0.254" layer="16"/>
 <wire x1="17.318" y1="36.8046" x2="17.4704" y2="36.957" width="0.508" layer="1"/>
-<wire x1="17.4958" y1="34.671" x2="17.4704" y2="34.6964" width="0.508" layer="1"/>
-<wire x1="18.68585" y1="33.48095" x2="18.7198" y2="33.48095" width="0.254" layer="1"/>
 <wire x1="44.9474" y1="35.8394" x2="44.9474" y2="34.671" width="0.508" layer="1"/>
 <wire x1="44.9474" y1="34.671" x2="44.9474" y2="32.9968625" width="0.508" layer="1"/>
 <wire x1="44.9474" y1="32.9968625" x2="45.0766625" y2="32.8676" width="0.508" layer="1"/>
@@ -2417,14 +2414,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="MCU1" pad="40"/>
 <contactref element="R14" pad="2"/>
 <contactref element="R15" pad="2"/>
-<wire x1="22.1996" y1="9.72956875" x2="22.1996" y2="13.43585625" width="0.1524" layer="1"/>
 <wire x1="17.6482" y1="2.1336" x2="15.8544" y2="2.1336" width="0.1524" layer="1"/>
-<wire x1="22.1996" y1="9.72956875" x2="17.648203125" y2="5.178171875" width="0.1524" layer="1"/>
+<wire x1="21.729015625" y1="9.258984375" x2="17.648203125" y2="5.178171875" width="0.1524" layer="1"/>
 <wire x1="17.648203125" y1="5.178171875" x2="17.6482" y2="2.1336" width="0.1524" layer="1"/>
-<wire x1="31.5254" y1="22.76165625" x2="31.5254" y2="22.987" width="0.1524" layer="1"/>
+<wire x1="31.5254" y1="22.987" x2="31.5254" y2="22.76165625" width="0.1524" layer="1"/>
 <wire x1="31.5254" y1="22.987" x2="31.5254" y2="23.4985" width="0.1524" layer="1"/>
-<wire x1="22.1996" y1="13.43585625" x2="31.5254" y2="22.76165625" width="0.1524" layer="1"/>
-<wire x1="31.5254" y1="22.76165625" x2="31.5254" y2="22.987" width="0.1524" layer="1"/>
+<wire x1="22.8092" y1="17.6022" x2="21.717" y2="16.51" width="0.1524" layer="1"/>
+<wire x1="21.717" y1="16.51" x2="21.717" y2="9.271" width="0.1524" layer="1"/>
+<wire x1="21.717" y1="9.271" x2="21.729015625" y2="9.258984375" width="0.1524" layer="1"/>
+<wire x1="31.5254" y1="22.76165625" x2="26.36594375" y2="17.6022" width="0.1524" layer="1"/>
+<wire x1="26.36594375" y1="17.6022" x2="22.8092" y2="17.6022" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="SERVOTHUMB" pad="SIG"/>
@@ -3217,6 +3216,30 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="7,39,85d42bb213f2c343"/>
 <approved hash="7,39,1f917e247e391fa4"/>
 <approved hash="7,39,4d0b2a4738c6d69c"/>
+<approved hash="19,1,b9c938aa2b31d7ce"/>
+<approved hash="19,1,7a2162586375cb6e"/>
+<approved hash="19,1,c3d20e175933c8f7"/>
+<approved hash="19,1,aa774b59e3e620c8"/>
+<approved hash="19,1,d77345b57e8b2c49"/>
+<approved hash="19,1,231d227b821b837d"/>
+<approved hash="19,1,943f922dff2886ae"/>
+<approved hash="19,1,d8d9dbf844184739"/>
+<approved hash="19,1,2f142e150e750f74"/>
+<approved hash="19,1,5c5c5c7d7c1d7c3c"/>
+<approved hash="19,1,1d8812732229c220"/>
+<approved hash="19,1,05a1f3f80ac2809c"/>
+<approved hash="19,1,71b3608d2d53b86f"/>
+<approved hash="19,1,a80a1f2177c46def"/>
+<approved hash="19,1,1a1706902a7bc8c8"/>
+<approved hash="19,1,60d863fac41ac738"/>
+<approved hash="19,1,2f572f8e8fbf8e04"/>
+<approved hash="19,16,bf05bc72f935445d"/>
+<approved hash="19,16,998ac7d641033205"/>
+<approved hash="19,16,a9b85ba1afde709d"/>
+<approved hash="19,16,109c119954bb55be"/>
+<approved hash="19,16,a792ac4d2834fbfb"/>
+<approved hash="19,16,2af2e5aaf59ee2d6"/>
+<approved hash="19,16,0a280ae104c3040a"/>
 </errors>
 </board>
 </drawing>

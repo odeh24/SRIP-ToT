@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -625,6 +625,12 @@
 <pin name="AVCC" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.27" layer="96" font="vector" ratio="10" align="bottom-center">AVCC</text>
 </symbol>
+<symbol name="VBAT">
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="VBAT" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="0.8128" layer="96" font="vector" ratio="10" align="bottom-center">VBAT</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="VCC" prefix="SUPPLY">
@@ -706,6 +712,18 @@
 <deviceset name="AVCC" prefix="SUPPLY">
 <gates>
 <gate name="G$1" symbol="AVCC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VBAT" prefix="SUPPLY">
+<gates>
+<gate name="G$1" symbol="VBAT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -941,37 +959,6 @@
 <wire x1="1.8" y1="1" x2="-1.8" y2="1" width="0.127" layer="39"/>
 <wire x1="-1.8" y1="1" x2="-1.8" y2="-1" width="0.127" layer="39"/>
 </package>
-<package name="RESISTOR_SMD-805" urn="urn:adsk.eagle:footprint:2749845/1" locally_modified="yes">
-<description>Resistor, Chip; 2.00 mm L X 1.25 mm W X 0.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
-<wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.12" layer="51"/>
-<wire x1="-1.05" y1="0.68" x2="1.05" y2="0.68" width="0.12" layer="51"/>
-<wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.12" layer="51"/>
-<wire x1="1.05" y1="0.68" x2="1.05" y2="-0.68" width="0.12" layer="51"/>
-<wire x1="-0.5" y1="0" x2="-0.4" y2="0" width="0.1" layer="21"/>
-<wire x1="-0.4" y1="0" x2="-0.3" y2="0.2" width="0.1" layer="21"/>
-<wire x1="-0.3" y1="0.2" x2="-0.2" y2="-0.2" width="0.1" layer="21"/>
-<wire x1="-0.2" y1="-0.2" x2="-0.1" y2="0.2" width="0.1" layer="21"/>
-<wire x1="0.4" y1="0" x2="0.5" y2="0" width="0.1" layer="21"/>
-<wire x1="0.2" y1="-0.2" x2="0.3" y2="0.2" width="0.1" layer="21"/>
-<wire x1="0.3" y1="0.2" x2="0.4" y2="0" width="0.1" layer="21"/>
-<wire x1="-0.1" y1="0.2" x2="0" y2="-0.2" width="0.1" layer="21"/>
-<wire x1="0" y1="-0.2" x2="0.1" y2="0.2" width="0.1" layer="21"/>
-<wire x1="0.1" y1="0.2" x2="0.2" y2="-0.2" width="0.1" layer="21"/>
-<wire x1="-1.651" y1="0.889" x2="-1.651" y2="-0.889" width="0.1" layer="39"/>
-<wire x1="-1.651" y1="-0.889" x2="1.651" y2="-0.889" width="0.1" layer="39"/>
-<wire x1="1.651" y1="-0.889" x2="1.651" y2="0.889" width="0.1" layer="39"/>
-<wire x1="1.651" y1="0.889" x2="-1.651" y2="0.889" width="0.1" layer="39"/>
-<wire x1="-1.651" y1="0.889" x2="-1.651" y2="-0.889" width="0.1" layer="21"/>
-<wire x1="-1.651" y1="-0.889" x2="1.651" y2="-0.889" width="0.1" layer="21"/>
-<wire x1="1.651" y1="-0.889" x2="1.651" y2="0.889" width="0.1" layer="21"/>
-<wire x1="1.651" y1="0.889" x2="-1.651" y2="0.889" width="0.1" layer="21"/>
-<text x="0" y="1.3" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
-<text x="0" y="-1.316" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<smd name="1" x="-1" y="0" dx="1" dy="1.45" layer="1" roundness="50" rot="R180"/>
-<smd name="2" x="1" y="0" dx="1" dy="1.45" layer="1" roundness="50"/>
-<rectangle x1="-1.1" y1="-0.625" x2="-0.5" y2="0.625" layer="51"/>
-<rectangle x1="0.5" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
-</package>
 <package name="RESC1005X35_SMD-0402" urn="urn:adsk.eagle:footprint:2899254/1" locally_modified="yes">
 <description>CHIP, 1 X 0.5 X 0.35 mm body
 &lt;p&gt;CHIP package with body size 1 X 0.5 X 0.35 mm&lt;/p&gt;</description>
@@ -1113,12 +1100,6 @@
 <packageinstance name="RESISTOR-PTH-0207/7"/>
 </packageinstances>
 </package3d>
-<package3d name="RESISTOR_SMD-805" urn="urn:adsk.eagle:package:2749855/3" locally_modified="yes" type="model">
-<description>Resistor, Chip; 2.00 mm L X 1.25 mm W X 0.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
-<packageinstances>
-<packageinstance name="RESISTOR_SMD-805"/>
-</packageinstances>
-</package3d>
 <package3d name="RESAD660W45L340D190B" urn="urn:adsk.eagle:package:4254914/1" locally_modified="yes" type="model">
 <description>AXIAL Resistor, 6.6 mm pitch, 3.4 mm body length, 1.9 mm body diameter
 &lt;p&gt;AXIAL Resistor package with 6.6 mm pitch, 0.45 mm lead diameter, 3.4 mm body length and 1.9 mm body diameter&lt;/p&gt;</description>
@@ -1167,27 +1148,6 @@
 </technology>
 </technologies>
 </device>
-<device name="_SMD-0805_1/8W-5%" package="RESISTOR_SMD-805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2749855/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=311-4.7KARCT-ND" constant="no"/>
-<attribute name="DISTPN" value="311-4.7KARCT-ND" constant="no"/>
-<attribute name="MFR" value="Yageo" constant="no"/>
-<attribute name="MPN" value="RC0805JR-074K7L" constant="no"/>
-<attribute name="VALUE" value="4.7K" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_SMD-0402_1/16W-5%" package="RESC1005X35_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -1204,6 +1164,26 @@
 <attribute name="DISTPN" value="1276-7028-1-ND" constant="no"/>
 <attribute name="MFR" value="Samsung Electro-Mechanics" constant="no"/>
 <attribute name="MPN" value="RCS1005J472CS" constant="no"/>
+<attribute name="VALUE" value="4.7K" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0805_1/8W_5%" package="RESC2012X60_SMD-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3034995/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=YAG1334CT-ND" constant="no"/>
+<attribute name="DISTPN" value="YAG1334CT-ND" constant="no"/>
+<attribute name="MFR" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0805JR-074K7P" constant="no"/>
 <attribute name="VALUE" value="4.7K" constant="no"/>
 </technology>
 </technologies>
@@ -1635,25 +1615,6 @@
 <gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD-805_250V-5%" package="_CER_SMD-805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21A5C2E220JW01-01.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM21A5C2E220JW01D/490-5534-1-ND/2334930" constant="no"/>
-<attribute name="DISTPN" value="490-5534-1-ND " constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America " constant="no"/>
-<attribute name="MPN" value="GRM21A5C2E220JW01D " constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="22PF/250V" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_CER_SMD-0402-100V-5%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -1694,6 +1655,25 @@
 </technology>
 </technologies>
 </device>
+<device name="_CER_SMD-0805_250V-5%" package="CAPC2012X95_SMD-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2940050/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21A5C2E220JW01-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTPN" value="490-5534-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="GRM21A5C2E220JW01D" constant="no"/>
+<attribute name="VALUE" value="22pF/250V" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="0.75PF" prefix="C" uservalue="yes">
@@ -1701,25 +1681,6 @@
 <gate name="G$1" symbol="CAPACITOR_NON-POLARIZED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD-805_100V-33%" package="_CER_SMD-805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="Kenmei" constant="no"/>
-<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM2195C2AR75CB01-01.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GQM2195C2AR75CB01D/490-3585-1-ND/789585" constant="no"/>
-<attribute name="DISTPN" value="490-3585-1-ND " constant="no"/>
-<attribute name="MFR" value="Murata Electronics North America " constant="no"/>
-<attribute name="MPN" value="GQM2195C2AR75CB01D " constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="0.75PF/100V" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_CER_SMD-0402_50V-33%" package="CAPC1005X55_SMD-0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -1756,6 +1717,26 @@
 <attribute name="DISTPN" value="490-3552-1-ND" constant="no"/>
 <attribute name="MFR" value="Murata Electronics North America" constant="no"/>
 <attribute name="MPN" value="GQM1885C2AR75CB01D" constant="no"/>
+<attribute name="VALUE" value="0.75pF/100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_CER_SMD-0805_100V-33%" package="CAPC2012X95_SMD-0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2940050/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GQM2195C2AR75CB01-01.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=490-3585-1-ND" constant="no"/>
+<attribute name="DISTPN" value="490-3585-1-ND" constant="no"/>
+<attribute name="MFR" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="GQM2195C2AR75CB01D" constant="no"/>
 <attribute name="VALUE" value="0.75pF/100V" constant="no"/>
 </technology>
 </technologies>
@@ -2585,94 +2566,34 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </library>
 <library name="PiB_ic_power">
 <packages>
-<package name="SOT223-4">
-<wire x1="3.25" y1="1.75" x2="3.25" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="3.25" y1="-1.75" x2="-3.25" y2="-1.75" width="0.2032" layer="21"/>
-<wire x1="-3.25" y1="-1.75" x2="-3.25" y2="1.75" width="0.2032" layer="21"/>
-<wire x1="-3.25" y1="1.75" x2="3.25" y2="1.75" width="0.2032" layer="21"/>
-<smd name="1" x="-2.3" y="-3.1988" dx="0.95" dy="2.5" layer="1" roundness="50"/>
-<smd name="2" x="0" y="-3.1988" dx="0.95" dy="2.5" layer="1" roundness="50"/>
-<smd name="3" x="2.3" y="-3.1988" dx="0.95" dy="2.5" layer="1" roundness="50"/>
-<smd name="TAB" x="0" y="3.099" dx="3.25" dy="2.5" layer="1" roundness="50"/>
-<rectangle x1="-1.5" y1="1.75" x2="1.5" y2="3.5" layer="51"/>
-<rectangle x1="-0.375" y1="-3.5" x2="0.375" y2="-1.75" layer="51"/>
-<rectangle x1="-2.675" y1="-3.5" x2="-1.925" y2="-1.75" layer="51"/>
-<rectangle x1="1.925" y1="-3.5" x2="2.675" y2="-1.75" layer="51"/>
-<text x="0" y="0.889" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<wire x1="-3.556" y1="2.032" x2="-1.778" y2="2.032" width="0.127" layer="39"/>
-<wire x1="-1.778" y1="2.032" x2="-1.778" y2="4.572" width="0.127" layer="39"/>
-<wire x1="-1.778" y1="4.572" x2="1.778" y2="4.572" width="0.127" layer="39"/>
-<wire x1="1.778" y1="4.572" x2="1.778" y2="2.032" width="0.127" layer="39"/>
-<wire x1="1.778" y1="2.032" x2="3.556" y2="2.032" width="0.127" layer="39"/>
-<wire x1="3.556" y1="2.032" x2="3.556" y2="-2.032" width="0.127" layer="39"/>
-<wire x1="3.556" y1="-2.032" x2="3.048" y2="-2.032" width="0.127" layer="39"/>
-<wire x1="3.048" y1="-2.032" x2="3.048" y2="-4.572" width="0.127" layer="39"/>
-<wire x1="3.048" y1="-4.572" x2="-3.048" y2="-4.572" width="0.127" layer="39"/>
-<wire x1="-3.048" y1="-4.572" x2="-3.048" y2="-2.032" width="0.127" layer="39"/>
-<wire x1="-3.048" y1="-2.032" x2="-3.556" y2="-2.032" width="0.127" layer="39"/>
-<wire x1="-3.556" y1="-2.032" x2="-3.556" y2="2.032" width="0.127" layer="39"/>
-</package>
-<package name="TO-220-3">
-<wire x1="5.08" y1="1.397" x2="4.953" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="4.699" y1="-1.778" x2="4.953" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="4.699" y1="-1.778" x2="-4.699" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="-4.953" y1="-1.524" x2="-4.699" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="-4.953" y1="-1.524" x2="-5.08" y2="1.397" width="0.127" layer="21"/>
-<circle x="-4.4958" y="-1.1684" radius="0.254" width="0.127" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="0" y="4.1148" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="3.048" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<rectangle x1="-5.334" y1="1.778" x2="5.334" y2="2.54" layer="21"/>
-<rectangle x1="-5.334" y1="1.27" x2="-3.429" y2="1.778" layer="21"/>
-<rectangle x1="-1.651" y1="1.27" x2="-0.889" y2="1.778" layer="21"/>
-<rectangle x1="-3.429" y1="1.27" x2="-1.651" y2="1.778" layer="51"/>
-<rectangle x1="0.889" y1="1.27" x2="1.651" y2="1.778" layer="21"/>
-<rectangle x1="3.429" y1="1.27" x2="5.334" y2="1.778" layer="21"/>
-<rectangle x1="-0.889" y1="1.27" x2="0.889" y2="1.778" layer="51"/>
-<rectangle x1="1.651" y1="1.27" x2="3.429" y2="1.778" layer="51"/>
-</package>
-<package name="TO-220-3_HEATSINK-SM">
-<wire x1="5.08" y1="1.397" x2="4.953" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="4.699" y1="-1.778" x2="4.953" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="4.699" y1="-1.778" x2="-4.699" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="-4.953" y1="-1.524" x2="-4.699" y2="-1.778" width="0.127" layer="21"/>
-<wire x1="-4.953" y1="-1.524" x2="-5.08" y2="1.397" width="0.127" layer="21"/>
-<circle x="-4.4958" y="-1.1684" radius="0.254" width="0.127" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="0" y="4.1148" size="0.8128" layer="25" font="vector" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="3.048" size="0.8128" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<rectangle x1="-5.334" y1="1.778" x2="5.334" y2="2.54" layer="21"/>
-<rectangle x1="-5.334" y1="1.27" x2="-3.429" y2="1.778" layer="21"/>
-<rectangle x1="-1.651" y1="1.27" x2="-0.889" y2="1.778" layer="21"/>
-<rectangle x1="-3.429" y1="1.27" x2="-1.651" y2="1.778" layer="51"/>
-<rectangle x1="0.889" y1="1.27" x2="1.651" y2="1.778" layer="21"/>
-<rectangle x1="3.429" y1="1.27" x2="5.334" y2="1.778" layer="21"/>
-<rectangle x1="-0.889" y1="1.27" x2="0.889" y2="1.778" layer="51"/>
-<rectangle x1="1.651" y1="1.27" x2="3.429" y2="1.778" layer="51"/>
-<circle x="0" y="5.715" radius="1.4" width="0" layer="41"/>
-<circle x="0" y="5.715" radius="1.4" width="0" layer="42"/>
-<hole x="0" y="5.715" drill="1.35"/>
-<wire x1="-7.62" y1="9.525" x2="-7.62" y2="3.175" width="0.4064" layer="21"/>
-<wire x1="-7.62" y1="3.175" x2="-7.62" y2="-1.905" width="0.4064" layer="21"/>
-<wire x1="-6.35" y1="9.525" x2="-6.35" y2="3.5250125" width="0.4064" layer="21"/>
-<wire x1="-5.08" y1="9.525" x2="-5.08" y2="3.5250125" width="0.4064" layer="21"/>
-<wire x1="-2.54" y1="9.525" x2="-2.54" y2="3.5250125" width="0.4064" layer="21"/>
-<wire x1="-3.81" y1="9.525" x2="-3.81" y2="3.5250125" width="0.4064" layer="21"/>
-<wire x1="-1.27" y1="9.525" x2="-1.27" y2="3.5250125" width="0.4064" layer="21"/>
-<wire x1="0" y1="9.525" x2="0" y2="3.5250125" width="0.4064" layer="21"/>
-<wire x1="1.27" y1="9.525" x2="1.27" y2="3.5250125" width="0.4064" layer="21"/>
-<wire x1="7.62" y1="9.525" x2="7.62" y2="3.175" width="0.4064" layer="21"/>
-<wire x1="7.62" y1="3.175" x2="7.62" y2="-1.905" width="0.4064" layer="21"/>
-<wire x1="2.54" y1="9.525" x2="2.54" y2="3.5250125" width="0.4064" layer="21"/>
-<wire x1="3.81" y1="9.525" x2="3.81" y2="3.5250125" width="0.4064" layer="21"/>
-<wire x1="5.08" y1="9.525" x2="5.08" y2="3.5250125" width="0.4064" layer="21"/>
-<wire x1="6.35" y1="9.525" x2="6.35" y2="3.5250125" width="0.4064" layer="21"/>
-<wire x1="-7.62" y1="3.175" x2="7.62" y2="3.175" width="0.4064" layer="21"/>
+<package name="SOT229P700X180-4" urn="urn:adsk.eagle:footprint:2900308/1" locally_modified="yes">
+<description>4-SOT223, 2.3 mm pitch, 7 mm span, 6.5 X 3.5 X 1.8 mm body
+&lt;p&gt;4-pin SOT223 package with 2.3 mm pitch, 7 mm span with body size 6.5 X 3.5 X 1.8 mm&lt;/p&gt;</description>
+<circle x="-2.9276" y="3.0949" radius="0.075" width="0" layer="21"/>
+<wire x1="-1.85" y1="3.0199" x2="-1.85" y2="3.35" width="0.12" layer="21"/>
+<wire x1="-1.85" y1="3.35" x2="1.85" y2="3.35" width="0.12" layer="21"/>
+<wire x1="1.85" y1="3.35" x2="1.85" y2="1.8486" width="0.12" layer="21"/>
+<wire x1="-1.85" y1="-3.0199" x2="-1.85" y2="-3.35" width="0.12" layer="21"/>
+<wire x1="-1.85" y1="-3.35" x2="1.85" y2="-3.35" width="0.12" layer="21"/>
+<wire x1="1.85" y1="-3.35" x2="1.85" y2="-1.8486" width="0.12" layer="21"/>
+<wire x1="1.85" y1="-3.35" x2="-1.85" y2="-3.35" width="0.12" layer="51"/>
+<wire x1="-1.85" y1="-3.35" x2="-1.85" y2="3.35" width="0.12" layer="51"/>
+<wire x1="-1.85" y1="3.35" x2="1.85" y2="3.35" width="0.12" layer="51"/>
+<wire x1="1.85" y1="3.35" x2="1.85" y2="-3.35" width="0.12" layer="51"/>
+<smd name="1" x="-3.125" y="2.3" dx="1.7603" dy="0.9319" layer="1"/>
+<smd name="2" x="-3.125" y="0" dx="1.7603" dy="0.9319" layer="1"/>
+<smd name="3" x="-3.125" y="-2.3" dx="1.7603" dy="0.9319" layer="1"/>
+<smd name="4" x="3.125" y="0" dx="1.7603" dy="3.1891" layer="1"/>
+<text x="0" y="3.985" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.985" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+<wire x1="-4.4" y1="3.5" x2="-4.4" y2="-3.5" width="0.127" layer="39"/>
+<wire x1="-4.4" y1="-3.5" x2="2.2" y2="-3.5" width="0.127" layer="39"/>
+<wire x1="4.4" y1="-2" x2="4.4" y2="2" width="0.127" layer="39"/>
+<wire x1="2.2" y1="3.5" x2="-4.4" y2="3.5" width="0.127" layer="39"/>
+<wire x1="2.2" y1="3.5" x2="2.2" y2="2" width="0.127" layer="39"/>
+<wire x1="2.2" y1="2" x2="4.4" y2="2" width="0.127" layer="39"/>
+<wire x1="2.2" y1="-3.5" x2="2.2" y2="-2" width="0.127" layer="39"/>
+<wire x1="2.2" y1="-2" x2="4.4" y2="-2" width="0.127" layer="39"/>
 </package>
 <package name="SOIC127P600X265-8" urn="urn:adsk.eagle:footprint:2899755/1" locally_modified="yes">
 <description>8-SOIC, 1.27 mm pitch, 6 mm span, 4.9 X 3.9 X 2.65 mm body
@@ -2737,9 +2658,16 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <packageinstance name="SOIC127P600X265-8"/>
 </packageinstances>
 </package3d>
+<package3d name="SOT229P700X180-4" urn="urn:adsk.eagle:package:2900305/1" locally_modified="yes" type="model">
+<description>4-SOT223, 2.3 mm pitch, 7 mm span, 6.5 X 3.5 X 1.8 mm body
+&lt;p&gt;4-pin SOT223 package with 2.3 mm pitch, 7 mm span with body size 6.5 X 3.5 X 1.8 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SOT229P700X180-4"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
-<symbol name="VREG-LINEAR-FIXED">
+<symbol name="VREG-LINEAR">
 <wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -2751,7 +2679,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <text x="0" y="2.032" size="0.635" layer="96" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
 <text x="-6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-left">VIN</text>
 <text x="6.985" y="0" size="1.27" layer="97" font="vector" ratio="10" align="center-right">VOUT</text>
-<text x="0" y="-4.445" size="1.27" layer="97" font="vector" ratio="10" align="bottom-center">GND</text>
+<text x="0" y="-4.445" size="1.27" layer="97" font="vector" ratio="10" align="bottom-center">GND/ADJ</text>
 </symbol>
 <symbol name="VREG_TPS76833_LINEAR_LDO_FAST_TRANSIENT">
 <wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
@@ -2777,247 +2705,29 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="VREG_LINEAR_FIXED" prefix="VREG" uservalue="yes">
+<deviceset name="VREG_TL1963A-XX_1.5A_LN_LDO_FAST-TRANSIENT">
 <gates>
-<gate name="G$1" symbol="VREG-LINEAR-FIXED" x="0" y="0"/>
+<gate name="G$1" symbol="VREG-LINEAR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_LM340MP-5_1.5A-5V" package="SOT223-4">
+<device name="_SOT-223-4_TL1963A-33_1.5A-3.3V" package="SOT229P700X180-4">
 <connects>
-<connect gate="G$1" pin="GND" pad="2 TAB"/>
+<connect gate="G$1" pin="GND" pad="2 4"/>
 <connect gate="G$1" pin="VI" pad="1"/>
 <connect gate="G$1" pin="VO" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2900305/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/lm340.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=LM340MP-5.0%2FNOPBCT-ND" constant="no"/>
-<attribute name="DISTPN" value="LM340MP-5.0/NOPBCT-ND" constant="no"/>
-<attribute name="MFR" value="Texas Instruments" constant="no"/>
-<attribute name="MPN" value="LM340MP-5.0/NOPB" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="LM340MP-5 1.5A/5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_TL1963A-33_LDO_1.5A-3.3V" package="SOT223-4">
-<connects>
-<connect gate="G$1" pin="GND" pad="2 TAB"/>
-<connect gate="G$1" pin="VI" pad="1"/>
-<connect gate="G$1" pin="VO" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tl1963a.pdf" constant="no"/>
+<attribute name="DATASHEET" value="TL1963A-xx DatasheetTL1963A-xx" constant="no"/>
 <attribute name="DIST" value="Digikey" constant="no"/>
 <attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-24897-1-ND" constant="no"/>
 <attribute name="DISTPN" value="296-24897-1-ND" constant="no"/>
 <attribute name="MFR" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="TL1963A-33DCYR" constant="no"/>
 <attribute name="VALUE" value="TL1963A-33 1.5A/3.3V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_TL1963A-15_LDO_1.5A-1.5V" package="SOT223-4">
-<connects>
-<connect gate="G$1" pin="GND" pad="2 TAB"/>
-<connect gate="G$1" pin="VI" pad="1"/>
-<connect gate="G$1" pin="VO" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tl1963a.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-24894-1-ND" constant="no"/>
-<attribute name="DISTPN" value="296-24894-1-ND" constant="no"/>
-<attribute name="MFR" value="Texas Instruments" constant="no"/>
-<attribute name="MPN" value="TL1963A-15DCYR" constant="no"/>
-<attribute name="VALUE" value="TL1963A-15 1.5A/1.5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_TL1963A-18_LDO_1.5A-1.8V" package="SOT223-4">
-<connects>
-<connect gate="G$1" pin="GND" pad="2 TAB"/>
-<connect gate="G$1" pin="VI" pad="1"/>
-<connect gate="G$1" pin="VO" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tl1963a.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-24895-1-ND" constant="no"/>
-<attribute name="DISTPN" value="296-24895-1-ND" constant="no"/>
-<attribute name="MFR" value="Texas Instruments" constant="no"/>
-<attribute name="MPN" value="TL1963A-18DCYR" constant="no"/>
-<attribute name="VALUE" value="TL1963A-18 1.5A/1.8V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_TL1963A-25_LDO_1.5A-2.5V" package="SOT223-4">
-<connects>
-<connect gate="G$1" pin="GND" pad="2 TAB"/>
-<connect gate="G$1" pin="VI" pad="1"/>
-<connect gate="G$1" pin="VO" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.ti.com/lit/ds/symlink/tl1963a.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=296-24896-1-ND" constant="no"/>
-<attribute name="DISTPN" value="296-24896-1-ND" constant="no"/>
-<attribute name="MFR" value="Texas Instruments" constant="no"/>
-<attribute name="MPN" value="TL1963A-25DCYR" constant="no"/>
-<attribute name="VALUE" value="TL1963A-25 1.5A/2.5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_NCP1117-33_1A-3.3V" package="SOT223-4">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="VI" pad="3"/>
-<connect gate="G$1" pin="VO" pad="2 TAB"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.onsemi.com/pub/Collateral/NCP1117LP-D.PDF" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=NCP1117LPST33T3GOSCT-ND" constant="no"/>
-<attribute name="DISTPN" value="NCP1117LPST33T3GOSCT-ND" constant="no"/>
-<attribute name="MFR" value="ON Semiconductor" constant="no"/>
-<attribute name="MPN" value="NCP1117LPST33T3G" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="NCP1117-33 1A/3.3V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_L4940V-5_1.5A-5V" package="TO-220-3">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VI" pad="1"/>
-<connect gate="G$1" pin="VO" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/c5/1b/3d/dc/81/d8/4f/d7/CD00000442.pdf/files/CD00000442.pdf/jcr:content/translations/en.CD00000442.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-1404-5-ND" constant="no"/>
-<attribute name="DISTPN" value="497-1404-5-ND" constant="no"/>
-<attribute name="MFR" value="STMicroelectronics" constant="no"/>
-<attribute name="MPN" value="L4940V5" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="L4940V-5 1.5A/5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_L4940V-5_1.5A-5V_HEATSINK-SM" package="TO-220-3_HEATSINK-SM">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VI" pad="1"/>
-<connect gate="G$1" pin="VO" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/c5/1b/3d/dc/81/d8/4f/d7/CD00000442.pdf/files/CD00000442.pdf/jcr:content/translations/en.CD00000442.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-1404-5-ND" constant="no"/>
-<attribute name="DISTLINK_HEATSINK" value="https://www.amazon.com/21x15x11mm-Black-Aluminum-Heat-Transistors/dp/B00REFDSOY" constant="no"/>
-<attribute name="DISTPN" value="497-1404-5-ND" constant="no"/>
-<attribute name="MFR" value="STMicroelectronics" constant="no"/>
-<attribute name="MPN" value="L4940V5" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="L4940V-5 1.5A/5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_L7805AB_1.5A-5V" package="TO-220-3">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VI" pad="1"/>
-<connect gate="G$1" pin="VO" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-2947-5-ND" constant="no"/>
-<attribute name="DISTPN" value="497-2947-5-ND" constant="no"/>
-<attribute name="MFR" value="STMicroelectronics" constant="no"/>
-<attribute name="MPN" value="L7805ABV" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="L7805AB 1.5A/5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_L7805AB_1.5A-5V_HEATSINK-SM" package="TO-220-3_HEATSINK-SM">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VI" pad="1"/>
-<connect gate="G$1" pin="VO" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-2947-5-ND" constant="no"/>
-<attribute name="DISTLINK_HEATSINK" value="https://www.amazon.com/21x15x11mm-Black-Aluminum-Heat-Transistors/dp/B00REFDSOY" constant="no"/>
-<attribute name="DISTPN" value="497-2947-5-ND" constant="no"/>
-<attribute name="MFR" value="STMicroelectronics" constant="no"/>
-<attribute name="MPN" value="L7805ABV" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="L7805AV 1.5A/5V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_L7806AB_1.5A-6V" package="TO-220-3">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VI" pad="1"/>
-<connect gate="G$1" pin="VO" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-1444-5-ND" constant="no"/>
-<attribute name="DISTPN" value="497-1444-5-ND" constant="no"/>
-<attribute name="MFR" value="STMicroelectronics" constant="no"/>
-<attribute name="MPN" value="L7806ABV" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="L7806AB 1.5A/6V" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="_L7806AB_1.5A-6V_HEATSINK-SM" package="TO-220-3_HEATSINK-SM">
-<connects>
-<connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="VI" pad="1"/>
-<connect gate="G$1" pin="VO" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=497-1444-5-ND" constant="no"/>
-<attribute name="DISTLINK_HEATSINK" value="https://www.amazon.com/21x15x11mm-Black-Aluminum-Heat-Transistors/dp/B00REFDSOY" constant="no"/>
-<attribute name="DISTPN" value="497-1444-5-ND" constant="no"/>
-<attribute name="MFR" value="STMicroelectronics" constant="no"/>
-<attribute name="MPN" value="L7806ABV" constant="no"/>
-<attribute name="TESTED" value="NO" constant="no"/>
-<attribute name="VALUE" value="L7806AB 1.5A/6V" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3961,45 +3671,19 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </library>
 <library name="PiB_inductors">
 <packages>
-<package name="_SMD-805" urn="urn:adsk.eagle:footprint:2752782/1">
-<description>Resistor, Chip; 2.00 mm L X 1.25 mm W X 0.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
-<wire x1="-1.05" y1="-0.68" x2="-1.05" y2="0.68" width="0.12" layer="51"/>
-<wire x1="-1.05" y1="0.68" x2="1.05" y2="0.68" width="0.12" layer="51"/>
-<wire x1="1.05" y1="-0.68" x2="-1.05" y2="-0.68" width="0.12" layer="51"/>
-<wire x1="1.05" y1="0.68" x2="1.05" y2="-0.68" width="0.12" layer="51"/>
-<wire x1="-0.5" y1="0" x2="-0.45" y2="0" width="0.1" layer="21"/>
-<wire x1="0.45" y1="0" x2="0.5" y2="0" width="0.1" layer="21"/>
-<wire x1="-1.778" y1="1.016" x2="-1.778" y2="-1.016" width="0.1" layer="39"/>
-<wire x1="-1.778" y1="-1.016" x2="1.778" y2="-1.016" width="0.1" layer="39"/>
-<wire x1="1.778" y1="-1.016" x2="1.778" y2="1.016" width="0.1" layer="39"/>
-<wire x1="1.778" y1="1.016" x2="-1.778" y2="1.016" width="0.1" layer="39"/>
-<wire x1="-1.651" y1="0.889" x2="-1.651" y2="-0.889" width="0.1" layer="21"/>
-<wire x1="-1.651" y1="-0.889" x2="1.651" y2="-0.889" width="0.1" layer="21"/>
-<wire x1="1.651" y1="-0.889" x2="1.651" y2="0.889" width="0.1" layer="21"/>
-<wire x1="1.651" y1="0.889" x2="-1.651" y2="0.889" width="0.1" layer="21"/>
-<wire x1="-0.45" y1="0" x2="-0.325" y2="0.15" width="0.1" layer="21" curve="-90"/>
-<wire x1="-0.325" y1="0.15" x2="-0.175" y2="0" width="0.1" layer="21" curve="-90"/>
-<wire x1="-0.175" y1="0" x2="-0.175" y2="-0.05" width="0.1" layer="21"/>
-<wire x1="-0.175" y1="-0.05" x2="-0.275" y2="-0.1" width="0.1" layer="21" curve="-90"/>
-<wire x1="-0.325" y1="0" x2="-0.275" y2="-0.1" width="0.1" layer="21" curve="90"/>
-<wire x1="0.325" y1="-0.05" x2="0.225" y2="-0.1" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.325" y1="0" x2="0.325" y2="-0.05" width="0.1" layer="21"/>
-<wire x1="0.175" y1="0" x2="0.325" y2="0.15" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.325" y1="0.15" x2="0.45" y2="0" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.175" y1="0" x2="0.225" y2="-0.1" width="0.1" layer="21" curve="90"/>
-<wire x1="-0.125" y1="0.175" x2="0.075" y2="0" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.075" y1="-0.05" x2="-0.025" y2="-0.1" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.075" y1="0" x2="0.075" y2="-0.05" width="0.1" layer="21"/>
-<wire x1="-0.075" y1="0" x2="-0.025" y2="-0.1" width="0.1" layer="21" curve="90"/>
-<wire x1="-0.075" y1="0" x2="0.125" y2="0.175" width="0.1" layer="21" curve="-90"/>
-<wire x1="0.125" y1="0.175" x2="0.325" y2="0" width="0.1" layer="21" curve="-90"/>
-<wire x1="-0.325" y1="0" x2="-0.125" y2="0.175" width="0.1" layer="21" curve="-90"/>
-<text x="0" y="1.3" size="0.6096" layer="25" font="vector" ratio="10" rot="R180" align="center">&gt;NAME</text>
-<text x="0" y="-1.316" size="0.6096" layer="27" font="vector" ratio="10" align="center">&gt;VALUE</text>
-<smd name="1" x="-1" y="0" dx="1" dy="1.45" layer="1" roundness="50" rot="R180"/>
-<smd name="2" x="1" y="0" dx="1" dy="1.45" layer="1" roundness="50"/>
-<rectangle x1="-1.1" y1="-0.625" x2="-0.5" y2="0.625" layer="51"/>
-<rectangle x1="0.5" y1="-0.625" x2="1.1" y2="0.625" layer="51"/>
+<package name="INDC2012X145" urn="urn:adsk.eagle:footprint:4582451/1">
+<description>Chip, 2.00 X 1.25 X 1.45 mm body
+&lt;p&gt;Chip package with body size 2.00 X 1.25 X 1.45 mm&lt;/p&gt;</description>
+<wire x1="1.1" y1="1.0467" x2="-1.1" y2="1.0467" width="0.12" layer="21"/>
+<wire x1="1.1" y1="-1.0467" x2="-1.1" y2="-1.0467" width="0.12" layer="21"/>
+<wire x1="1.1" y1="-0.725" x2="-1.1" y2="-0.725" width="0.12" layer="51"/>
+<wire x1="-1.1" y1="-0.725" x2="-1.1" y2="0.725" width="0.12" layer="51"/>
+<wire x1="-1.1" y1="0.725" x2="1.1" y2="0.725" width="0.12" layer="51"/>
+<wire x1="1.1" y1="0.725" x2="1.1" y2="-0.725" width="0.12" layer="51"/>
+<smd name="1" x="-0.925" y="0" dx="1.0653" dy="1.4653" layer="1"/>
+<smd name="2" x="0.925" y="0" dx="1.0653" dy="1.4653" layer="1"/>
+<text x="0" y="1.6817" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.6817" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 <package name="INDC1608X60" urn="urn:adsk.eagle:footprint:2899747/1" locally_modified="yes">
 <description>CHIP, 1.6 X 0.8 X 0.6 mm body
@@ -4021,10 +3705,11 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </package>
 </packages>
 <packages3d>
-<package3d name="_SMD-805" urn="urn:adsk.eagle:package:2752787/4" type="model">
-<description>Resistor, Chip; 2.00 mm L X 1.25 mm W X 0.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<package3d name="INDC2012X145" urn="urn:adsk.eagle:package:4582448/1" type="model">
+<description>Chip, 2.00 X 1.25 X 1.45 mm body
+&lt;p&gt;Chip package with body size 2.00 X 1.25 X 1.45 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="_SMD-805"/>
+<packageinstance name="INDC2012X145"/>
 </packageinstances>
 </package3d>
 <package3d name="INDC1608X60" urn="urn:adsk.eagle:package:2899745/1" locally_modified="yes" type="model">
@@ -4068,27 +3753,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_SMD-805_0.5A-0.65OHM-10%" package="_SMD-805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:2752787/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="CREATOR" value="MrSwirlyEyes" constant="no"/>
-<attribute name="DATASHEET" value="http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=CB2012T100KR&amp;fileName=CB2012T100KR_SS&amp;mode=specSheetDownload" constant="no"/>
-<attribute name="DIST" value="Digikey" constant="no"/>
-<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-2452-1-ND" constant="no"/>
-<attribute name="DISTPN" value="587-2452-1-ND" constant="no"/>
-<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
-<attribute name="MPN" value="CB2012T100KR" constant="no"/>
-<attribute name="VALUE" value="10uH" constant="no"/>
-</technology>
-</technologies>
-</device>
 <device name="_SMD-0603_0.38A-0.468OHM-10%" package="INDC1608X60">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
@@ -4106,6 +3770,26 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <attribute name="MFR" value="Taiyo Yuden" constant="no"/>
 <attribute name="MPN" value="Taiyo Yuden" constant="no"/>
 <attribute name="VALUE" value="10uH/380mA" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_SMD-0805_0.5A-0.65OHM-10%" package="INDC2012X145">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4582448/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://www.yuden.co.jp/productdata/catalog/wound02_e.pdf" constant="no"/>
+<attribute name="DIST" value="Digikey" constant="no"/>
+<attribute name="DISTLINK" value="https://www.digikey.com/products/en?keywords=587-2452-1-ND" constant="no"/>
+<attribute name="DISTPN" value="587-2452-1-ND" constant="no"/>
+<attribute name="MFR" value="Taiyo Yuden" constant="no"/>
+<attribute name="MPN" value="CB2012T100KR" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4981,24 +4665,24 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="SUPPLY9" library="PiB_power_symbols" deviceset="3.3V" device=""/>
 <part name="Q5" library="PiB_discrete_semiconductors" deviceset="MOSFET_N-CHANNEL" device="_SI2302CDS_2.9A-20V-0.057OHM_" package3d_urn="urn:adsk.eagle:package:3076853/1" value="SI2302CDS 2.9A/20V"/>
 <part name="D5" library="PiB_discrete_semiconductors" deviceset="DIODE_GENERAL-PURPOSE" device="_SMD_GP_1A-50V" package3d_urn="urn:adsk.eagle:package:2939213/1" value="1A/50V"/>
-<part name="R1" library="PiB_resistors" deviceset="4.7KΩ" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:2749855/3" value="4.7K"/>
-<part name="R2" library="PiB_resistors" deviceset="4.7KΩ" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:2749855/3" value="4.7K"/>
-<part name="R3" library="PiB_resistors" deviceset="4.7KΩ" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:2749855/3" value="4.7K"/>
-<part name="R4" library="PiB_resistors" deviceset="4.7KΩ" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:2749855/3" value="4.7K"/>
-<part name="R5" library="PiB_resistors" deviceset="4.7KΩ" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:2749855/3" value="4.7K"/>
+<part name="R1" library="PiB_resistors" deviceset="4.7KΩ" device="_SMD-0805_1/8W_5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="4.7K"/>
+<part name="R2" library="PiB_resistors" deviceset="4.7KΩ" device="_SMD-0805_1/8W_5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="4.7K"/>
+<part name="R3" library="PiB_resistors" deviceset="4.7KΩ" device="_SMD-0805_1/8W_5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="4.7K"/>
+<part name="R4" library="PiB_resistors" deviceset="4.7KΩ" device="_SMD-0805_1/8W_5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="4.7K"/>
+<part name="R5" library="PiB_resistors" deviceset="4.7KΩ" device="_SMD-0805_1/8W_5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="4.7K"/>
 <part name="Y1" library="PiB" deviceset="CRYSTAL" device="_ABM3B_16MHZ_18PF" package3d_urn="urn:adsk.eagle:package:2939176/2" value="16 MHz"/>
-<part name="C1" library="PiB_capacitors" deviceset="12PF" device="_SMD-805_250V-5%" value="12pF/250V"/>
-<part name="C2" library="PiB_capacitors" deviceset="12PF" device="_SMD-805_250V-5%" value="12pF/250V"/>
+<part name="C1" library="PiB_capacitors" deviceset="12PF" device="_SMD-0805_250V-5%" package3d_urn="urn:adsk.eagle:package:2940050/1" value="12pF/250V"/>
+<part name="C2" library="PiB_capacitors" deviceset="12PF" device="_SMD-0805_250V-5%" package3d_urn="urn:adsk.eagle:package:2940050/1" value="12pF/250V"/>
 <part name="SUPPLY21" library="PiB_power_symbols" deviceset="AGND" device=""/>
 <part name="SUPPLY22" library="PiB_power_symbols" deviceset="AGND" device=""/>
 <part name="SUPPLY23" library="PiB_power_symbols" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="PiB_power_symbols" deviceset="GND" device=""/>
 <part name="ANT1" library="PiB_radio_frequency" deviceset="ANTENNA" device="_SMD_CHP-2.45GHZ-0.5DBI-3W" package3d_urn="urn:adsk.eagle:package:2933495/1" value="2.45GHz"/>
-<part name="C3" library="PiB_capacitors" deviceset="22PF" device="_SMD-805_250V-5%" value="22PF/250V"/>
+<part name="C3" library="PiB_capacitors" deviceset="22PF" device="_CER_SMD-0805_250V-5%" package3d_urn="urn:adsk.eagle:package:2940050/1" value="22pF/250V"/>
 <part name="SUPPLY25" library="PiB_power_symbols" deviceset="AGND" device=""/>
 <part name="SUPPLY26" library="PiB_power_symbols" deviceset="AGND" device=""/>
 <part name="BALUN1" library="PiB_radio_frequency" deviceset="BALUN" device="_SMD-0805_UNBAL/BAL-50/100" package3d_urn="urn:adsk.eagle:package:2933573/1" value="50/100"/>
-<part name="C4" library="PiB_capacitors" deviceset="0.75PF" device="_SMD-805_100V-33%" value="0.75PF/100V"/>
+<part name="C4" library="PiB_capacitors" deviceset="0.75PF" device="_CER_SMD-0805_100V-33%" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.75pF/100V"/>
 <part name="SUPPLY27" library="PiB_power_symbols" deviceset="AGND" device=""/>
 <part name="AVR_ISP1" library="PiB_connectors" deviceset="AVR_SPI_PRG_6" device="_PTH_VERT-MALE" package3d_urn="urn:adsk.eagle:package:2993074/7" value="AVRISP"/>
 <part name="JP1" library="PiB_connectors" deviceset="FTDI" device="_PTH_RA-MALE" package3d_urn="urn:adsk.eagle:package:2993075/7" value="FTDI"/>
@@ -5022,13 +4706,13 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="SUPPLY36" library="PiB_power_symbols" deviceset="GND" device=""/>
 <part name="R16" library="PiB_resistors" deviceset="10KΩ" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="10K"/>
 <part name="SUPPLY37" library="PiB_power_symbols" deviceset="VCC" device=""/>
-<part name="VREG-VIBE" library="PiB_ic_power" deviceset="VREG_LINEAR_FIXED" device="_TL1963A-33_LDO_1.5A-3.3V" value="TL1963A-33 1.5A/3.3V"/>
+<part name="VREG-VIBE" library="PiB_ic_power" deviceset="VREG_TL1963A-XX_1.5A_LN_LDO_FAST-TRANSIENT" device="_SOT-223-4_TL1963A-33_1.5A-3.3V" package3d_urn="urn:adsk.eagle:package:2900305/1" value="TL1963A-33 1.5A/3.3V"/>
 <part name="SW1" library="PiB_switches" deviceset="SWITCH_SPDT" device="_RA_SMD_300MA-4V_6.7L-2.6W" package3d_urn="urn:adsk.eagle:package:2959400/3" value="300mA/4V"/>
 <part name="SUPPLY38" library="PiB_power_symbols" deviceset="2PT_GND_TIE" device=""/>
-<part name="LED1" library="PiB_leds" deviceset="LED" device="_SMD-0805_DISCRETE_GREEN" value="GREEN"/>
+<part name="LED1" library="PiB_leds" deviceset="LED" device="_SMD-0805_DISCRETE_GREEN_" package3d_urn="urn:adsk.eagle:package:2966314/3" value="GREEN"/>
 <part name="R17" library="PiB_resistors" deviceset="10KΩ" device="_SMD-0805_1/8W-5%" package3d_urn="urn:adsk.eagle:package:3034995/1" value="10K"/>
 <part name="D7" library="PiB_discrete_semiconductors" deviceset="DIODE_GENERAL-PURPOSE" device="_SMD_GP_1A-50V" package3d_urn="urn:adsk.eagle:package:2939213/1" value="1A/50V"/>
-<part name="L2" library="PiB_inductors" deviceset="10UH" device="_SMD-805_0.5A-0.65OHM-10%" package3d_urn="urn:adsk.eagle:package:2752787/4" value="10uH"/>
+<part name="L2" library="PiB_inductors" deviceset="10UH" device="_SMD-0805_0.5A-0.65OHM-10%" package3d_urn="urn:adsk.eagle:package:4582448/1" value="10uH"/>
 <part name="SUPPLY40" library="PiB_power_symbols" deviceset="NGND" device=""/>
 <part name="SUPPLY41" library="PiB_power_symbols" deviceset="AGND" device=""/>
 <part name="SUPPLY42" library="PiB_power_symbols" deviceset="GND" device=""/>
@@ -5050,7 +4734,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="C10" library="PiB_capacitors" deviceset="1UF" device="_CER_SMD-0805_25V-10%" package3d_urn="urn:adsk.eagle:package:2940050/1" value="1uF/25V"/>
 <part name="C11" library="PiB_capacitors" deviceset="0.1UF" device="_SMD-0805_35V-10%" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V"/>
 <part name="SUPPLY54" library="PiB_power_symbols" deviceset="AGND" device=""/>
-<part name="L1" library="PiB_inductors" deviceset="10UH" device="_SMD-805_0.5A-0.65OHM-10%" package3d_urn="urn:adsk.eagle:package:2752787/4" value="10uH"/>
+<part name="L1" library="PiB_inductors" deviceset="10UH" device="_SMD-0805_0.5A-0.65OHM-10%" package3d_urn="urn:adsk.eagle:package:4582448/1" value="10uH"/>
 <part name="SUPPLY39" library="PiB_power_symbols" deviceset="2PT_GND_TIE" device=""/>
 <part name="FLEX1" library="PiB_sensors" deviceset="FLEX_SENSOR" device="_0530470210_VERT-MALE_PITCH-1.25MM" package3d_urn="urn:adsk.eagle:package:2973718/2" value="10K"/>
 <part name="FLEX2" library="PiB_sensors" deviceset="FLEX_SENSOR" device="_0530470210_VERT-MALE_PITCH-1.25MM" package3d_urn="urn:adsk.eagle:package:2973718/2" value="10K"/>
@@ -5070,7 +4754,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="SUPPLY20" library="PiB_power_symbols" deviceset="AGND" device=""/>
 <part name="C12" library="PiB_capacitors" deviceset="0.1UF" device="_SMD-0805_35V-10%" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V"/>
 <part name="C13" library="PiB_capacitors" deviceset="10UF" device="_CER_SMD-0805_25V-10%" package3d_urn="urn:adsk.eagle:package:2940050/1" value="10uF/25V"/>
-<part name="C14" library="PiB_capacitors" deviceset="100UF" device="_CER_SMD-1210_16V-20%" package3d_urn="urn:adsk.eagle:package:2933640/1" value="100uF/10V"/>
 <part name="C15" library="PiB_capacitors" deviceset="100UF" device="_CER_SMD-1210_16V-20%" package3d_urn="urn:adsk.eagle:package:2933640/1" value="100uF/10V"/>
 <part name="C16" library="PiB_capacitors" deviceset="100UF" device="_CER_SMD-1210_16V-20%" package3d_urn="urn:adsk.eagle:package:2933640/1" value="100uF/10V"/>
 <part name="C17" library="PiB_capacitors" deviceset="0.1UF" device="_SMD-0805_35V-10%" package3d_urn="urn:adsk.eagle:package:2940050/1" value="0.1uF/35V"/>
@@ -5095,6 +4778,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="VIBE3" library="PiB_actuators" deviceset="VIBE-MOTOR_CONNECTOR" device="_0530470210_VERT-MALE_PITCH-1.25MM" package3d_urn="urn:adsk.eagle:package:2973718/2" value="Molex VERT 1.25mm pitch"/>
 <part name="VIBE4" library="PiB_actuators" deviceset="VIBE-MOTOR_CONNECTOR" device="_0530470210_VERT-MALE_PITCH-1.25MM" package3d_urn="urn:adsk.eagle:package:2973718/2" value="Molex VERT 1.25mm pitch"/>
 <part name="VIBE5" library="PiB_actuators" deviceset="VIBE-MOTOR_CONNECTOR" device="_0530470210_VERT-MALE_PITCH-1.25MM" package3d_urn="urn:adsk.eagle:package:2973718/2" value="Molex VERT 1.25mm pitch"/>
+<part name="SUPPLY57" library="PiB_power_symbols" deviceset="VBAT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5246,7 +4930,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <instance part="SUPPLY20" gate="G$1" x="40.64" y="-93.98" rot="R90"/>
 <instance part="C12" gate="G$1" x="375.92" y="-27.94"/>
 <instance part="C13" gate="G$1" x="365.76" y="-27.94"/>
-<instance part="C14" gate="G$1" x="340.36" y="-27.94"/>
 <instance part="C15" gate="G$1" x="347.98" y="-27.94"/>
 <instance part="C16" gate="G$1" x="355.6" y="-27.94"/>
 <instance part="C17" gate="G$1" x="406.4" y="-33.02"/>
@@ -5271,74 +4954,12 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <instance part="VIBE3" gate="G$1" x="106.68" y="-168.91"/>
 <instance part="VIBE4" gate="G$1" x="154.94" y="-168.91"/>
 <instance part="VIBE5" gate="G$1" x="200.66" y="-168.91"/>
+<instance part="SUPPLY57" gate="G$1" x="360.68" y="-20.32"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="VCC" class="0">
-<segment>
-<pinref part="SUPPLY1" gate="3.3V" pin="3.3V"/>
-<wire x1="20.32" y1="-160.02" x2="20.32" y2="-162.56" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="K"/>
-<wire x1="20.32" y1="-162.56" x2="20.32" y2="-165.1" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="-165.1" x2="20.32" y2="-167.64" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-165.1" x2="20.32" y2="-165.1" width="0.1524" layer="91"/>
-<junction x="20.32" y="-165.1"/>
-<pinref part="VIBE1" gate="G$1" pin="+"/>
-<wire x1="12.7" y1="-163.83" x2="12.7" y2="-162.56" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="-162.56" x2="20.32" y2="-162.56" width="0.1524" layer="91"/>
-<junction x="20.32" y="-162.56"/>
-</segment>
-<segment>
-<pinref part="SUPPLY3" gate="3.3V" pin="3.3V"/>
-<wire x1="66.04" y1="-160.02" x2="66.04" y2="-162.56" width="0.1524" layer="91"/>
-<pinref part="D2" gate="G$1" pin="K"/>
-<wire x1="66.04" y1="-162.56" x2="66.04" y2="-165.1" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-165.1" x2="66.04" y2="-167.64" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-165.1" x2="66.04" y2="-165.1" width="0.1524" layer="91"/>
-<junction x="66.04" y="-165.1"/>
-<pinref part="VIBE2" gate="G$1" pin="+"/>
-<wire x1="58.42" y1="-162.56" x2="58.42" y2="-163.83" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-162.56" x2="66.04" y2="-162.56" width="0.1524" layer="91"/>
-<junction x="66.04" y="-162.56"/>
-</segment>
-<segment>
-<pinref part="SUPPLY5" gate="3.3V" pin="3.3V"/>
-<wire x1="114.3" y1="-160.02" x2="114.3" y2="-162.56" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="K"/>
-<wire x1="114.3" y1="-162.56" x2="114.3" y2="-165.1" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="-165.1" x2="114.3" y2="-167.64" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="-165.1" x2="114.3" y2="-165.1" width="0.1524" layer="91"/>
-<junction x="114.3" y="-165.1"/>
-<pinref part="VIBE3" gate="G$1" pin="+"/>
-<wire x1="106.68" y1="-163.83" x2="106.68" y2="-162.56" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="-162.56" x2="114.3" y2="-162.56" width="0.1524" layer="91"/>
-<junction x="114.3" y="-162.56"/>
-</segment>
-<segment>
-<pinref part="SUPPLY7" gate="3.3V" pin="3.3V"/>
-<wire x1="162.56" y1="-160.02" x2="162.56" y2="-162.56" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="K"/>
-<wire x1="162.56" y1="-162.56" x2="162.56" y2="-165.1" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="-165.1" x2="162.56" y2="-167.64" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="-165.1" x2="162.56" y2="-165.1" width="0.1524" layer="91"/>
-<junction x="162.56" y="-165.1"/>
-<pinref part="VIBE4" gate="G$1" pin="+"/>
-<wire x1="162.56" y1="-162.56" x2="154.94" y2="-162.56" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="-162.56" x2="154.94" y2="-163.83" width="0.1524" layer="91"/>
-<junction x="162.56" y="-162.56"/>
-</segment>
-<segment>
-<pinref part="SUPPLY9" gate="3.3V" pin="3.3V"/>
-<wire x1="208.28" y1="-160.02" x2="208.28" y2="-162.56" width="0.1524" layer="91"/>
-<pinref part="D5" gate="G$1" pin="K"/>
-<wire x1="208.28" y1="-162.56" x2="208.28" y2="-165.1" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="-165.1" x2="208.28" y2="-165.1" width="0.1524" layer="91"/>
-<pinref part="VIBE5" gate="G$1" pin="+"/>
-<wire x1="208.28" y1="-162.56" x2="200.66" y2="-162.56" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="-162.56" x2="200.66" y2="-163.83" width="0.1524" layer="91"/>
-<junction x="208.28" y="-162.56"/>
-</segment>
 <segment>
 <pinref part="VREG-MCU" gate="G$1" pin="VOUT"/>
 <wire x1="403.86" y1="-22.86" x2="406.4" y2="-22.86" width="0.1524" layer="91"/>
@@ -5498,9 +5119,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <pinref part="SUPPLY29" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="340.36" y1="-33.02" x2="340.36" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="340.36" y1="-35.56" x2="347.98" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="347.98" y1="-35.56" x2="355.6" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="-35.56" x2="355.6" y2="-33.02" width="0.1524" layer="91"/>
@@ -5984,6 +5602,69 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <wire x1="414.02" y1="-68.58" x2="414.02" y2="-63.5" width="0.1524" layer="91"/>
 <junction x="414.02" y="-63.5"/>
 </segment>
+<segment>
+<pinref part="SUPPLY1" gate="3.3V" pin="3.3V"/>
+<wire x1="20.32" y1="-160.02" x2="20.32" y2="-162.56" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="K"/>
+<wire x1="20.32" y1="-162.56" x2="20.32" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-165.1" x2="20.32" y2="-167.64" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-165.1" x2="20.32" y2="-165.1" width="0.1524" layer="91"/>
+<junction x="20.32" y="-165.1"/>
+<pinref part="VIBE1" gate="G$1" pin="+"/>
+<wire x1="12.7" y1="-163.83" x2="12.7" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="-162.56" x2="20.32" y2="-162.56" width="0.1524" layer="91"/>
+<junction x="20.32" y="-162.56"/>
+</segment>
+<segment>
+<pinref part="SUPPLY3" gate="3.3V" pin="3.3V"/>
+<wire x1="66.04" y1="-160.02" x2="66.04" y2="-162.56" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="K"/>
+<wire x1="66.04" y1="-162.56" x2="66.04" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-165.1" x2="66.04" y2="-167.64" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-165.1" x2="66.04" y2="-165.1" width="0.1524" layer="91"/>
+<junction x="66.04" y="-165.1"/>
+<pinref part="VIBE2" gate="G$1" pin="+"/>
+<wire x1="58.42" y1="-162.56" x2="58.42" y2="-163.83" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-162.56" x2="66.04" y2="-162.56" width="0.1524" layer="91"/>
+<junction x="66.04" y="-162.56"/>
+</segment>
+<segment>
+<pinref part="SUPPLY5" gate="3.3V" pin="3.3V"/>
+<wire x1="114.3" y1="-160.02" x2="114.3" y2="-162.56" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="K"/>
+<wire x1="114.3" y1="-162.56" x2="114.3" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="-165.1" x2="114.3" y2="-167.64" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="-165.1" x2="114.3" y2="-165.1" width="0.1524" layer="91"/>
+<junction x="114.3" y="-165.1"/>
+<pinref part="VIBE3" gate="G$1" pin="+"/>
+<wire x1="106.68" y1="-163.83" x2="106.68" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-162.56" x2="114.3" y2="-162.56" width="0.1524" layer="91"/>
+<junction x="114.3" y="-162.56"/>
+</segment>
+<segment>
+<pinref part="SUPPLY7" gate="3.3V" pin="3.3V"/>
+<wire x1="162.56" y1="-160.02" x2="162.56" y2="-162.56" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="K"/>
+<wire x1="162.56" y1="-162.56" x2="162.56" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-165.1" x2="162.56" y2="-167.64" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="-165.1" x2="162.56" y2="-165.1" width="0.1524" layer="91"/>
+<junction x="162.56" y="-165.1"/>
+<pinref part="VIBE4" gate="G$1" pin="+"/>
+<wire x1="162.56" y1="-162.56" x2="154.94" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-162.56" x2="154.94" y2="-163.83" width="0.1524" layer="91"/>
+<junction x="162.56" y="-162.56"/>
+</segment>
+<segment>
+<pinref part="SUPPLY9" gate="3.3V" pin="3.3V"/>
+<wire x1="208.28" y1="-160.02" x2="208.28" y2="-162.56" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="K"/>
+<wire x1="208.28" y1="-162.56" x2="208.28" y2="-165.1" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="-165.1" x2="208.28" y2="-165.1" width="0.1524" layer="91"/>
+<pinref part="VIBE5" gate="G$1" pin="+"/>
+<wire x1="208.28" y1="-162.56" x2="200.66" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-162.56" x2="200.66" y2="-163.83" width="0.1524" layer="91"/>
+<junction x="208.28" y="-162.56"/>
+</segment>
 </net>
 <net name="N$14" class="0">
 <segment>
@@ -6089,54 +5770,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <pinref part="SUPPLY10" gate="G$1" pin="NGND"/>
 </segment>
 </net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="SW1" gate="G$1" pin="S1"/>
-<wire x1="325.12" y1="-22.86" x2="332.74" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="332.74" y1="-22.86" x2="332.74" y2="-33.02" width="0.1524" layer="91"/>
-<pinref part="VREG-MCU" gate="G$1" pin="VIN"/>
-<wire x1="383.54" y1="-22.86" x2="381" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="332.74" y="-22.86"/>
-<pinref part="VREG-VIBE" gate="G$1" pin="VI"/>
-<wire x1="381" y1="-22.86" x2="375.92" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="-22.86" x2="365.76" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="-22.86" x2="360.68" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="360.68" y1="-22.86" x2="355.6" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="355.6" y1="-22.86" x2="347.98" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="-22.86" x2="340.36" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="340.36" y1="-22.86" x2="332.74" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="383.54" y1="-63.5" x2="381" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="381" y1="-63.5" x2="373.38" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="-63.5" x2="360.68" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="360.68" y1="-63.5" x2="360.68" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="360.68" y="-22.86"/>
-<pinref part="D7" gate="G$1" pin="K"/>
-<wire x1="391.16" y1="-50.8" x2="381" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="381" y1="-50.8" x2="381" y2="-63.5" width="0.1524" layer="91"/>
-<junction x="381" y="-63.5"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-<wire x1="365.76" y1="-25.4" x2="365.76" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="365.76" y="-22.86"/>
-<pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="375.92" y1="-25.4" x2="375.92" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="375.92" y="-22.86"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="340.36" y1="-25.4" x2="340.36" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="340.36" y="-22.86"/>
-<pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="347.98" y1="-25.4" x2="347.98" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="347.98" y="-22.86"/>
-<pinref part="C16" gate="G$1" pin="1"/>
-<wire x1="355.6" y1="-25.4" x2="355.6" y2="-22.86" width="0.1524" layer="91"/>
-<junction x="355.6" y="-22.86"/>
-<pinref part="C19" gate="G$1" pin="1"/>
-<wire x1="373.38" y1="-68.58" x2="373.38" y2="-63.5" width="0.1524" layer="91"/>
-<junction x="373.38" y="-63.5"/>
-<pinref part="C20" gate="G$1" pin="1"/>
-<wire x1="381" y1="-68.58" x2="381" y2="-63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="K"/>
@@ -6217,6 +5850,53 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <pinref part="C9" gate="G$1" pin="2"/>
 <pinref part="MCU1" gate="G$1" pin="DVDD"/>
 <wire x1="177.8" y1="-71.12" x2="172.72" y2="-71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VBAT" class="0">
+<segment>
+<pinref part="SW1" gate="G$1" pin="S1"/>
+<wire x1="325.12" y1="-22.86" x2="332.74" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="332.74" y1="-22.86" x2="332.74" y2="-33.02" width="0.1524" layer="91"/>
+<pinref part="VREG-MCU" gate="G$1" pin="VIN"/>
+<wire x1="383.54" y1="-22.86" x2="381" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="332.74" y="-22.86"/>
+<pinref part="VREG-VIBE" gate="G$1" pin="VI"/>
+<wire x1="381" y1="-22.86" x2="375.92" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="-22.86" x2="365.76" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="-22.86" x2="360.68" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="-22.86" x2="355.6" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="-22.86" x2="347.98" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="-22.86" x2="340.36" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="-22.86" x2="332.74" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="-63.5" x2="381" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="381" y1="-63.5" x2="373.38" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="-63.5" x2="360.68" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="-63.5" x2="360.68" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="360.68" y="-22.86"/>
+<pinref part="D7" gate="G$1" pin="K"/>
+<wire x1="391.16" y1="-50.8" x2="381" y2="-50.8" width="0.1524" layer="91"/>
+<wire x1="381" y1="-50.8" x2="381" y2="-63.5" width="0.1524" layer="91"/>
+<junction x="381" y="-63.5"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="365.76" y1="-25.4" x2="365.76" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="365.76" y="-22.86"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="375.92" y1="-25.4" x2="375.92" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="375.92" y="-22.86"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="347.98" y1="-25.4" x2="347.98" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="347.98" y="-22.86"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="355.6" y1="-25.4" x2="355.6" y2="-22.86" width="0.1524" layer="91"/>
+<junction x="355.6" y="-22.86"/>
+<pinref part="C19" gate="G$1" pin="1"/>
+<wire x1="373.38" y1="-68.58" x2="373.38" y2="-63.5" width="0.1524" layer="91"/>
+<junction x="373.38" y="-63.5"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="381" y1="-68.58" x2="381" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="SUPPLY57" gate="G$1" pin="VBAT"/>
+<wire x1="360.68" y1="-20.32" x2="360.68" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

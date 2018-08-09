@@ -4,6 +4,8 @@ Build a voltage divider circuit combining a flex sensor with a 4.7k resistor.
 - The flex sensor connects A0 to 3.3V
 As the flex sensor is being bent, the resistance increases and the reading 
 by A0 should decrease.
+Any other flex sensors added would need to be powered, connected to a resistor,
+and grounded the same way. The output pins are the only thing that differs.
 ****************************************************************************/
 #define FLEX_PIN1 0 //Pin connected to respective 
 #define FLEX_PIN2 1 //flex sensor
